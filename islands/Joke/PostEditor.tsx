@@ -161,7 +161,7 @@ export default function PostEditor({ title, label, action, move, rec, jokeId, ta
                                     <FileUploader
                                         initialFileList={rec?.initialFileList}
                                         initialRemoveFileList={rec?.initialRemoveFileList}
-                                        type='image/png, image/jpeg, image/bmp, image/gif'
+                                        type='image/png, image/jpeg'
                                         max={5}
                                     />
                                 )}

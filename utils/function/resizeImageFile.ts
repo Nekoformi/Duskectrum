@@ -39,7 +39,21 @@ export default async function resizeImageFile(file: File, width: number, height:
                     return;
                 }
 
-                const newBlob = new Blob([await resizedImage.encode()], { type: 'application/octet-binary' });
+                let resizedImageData: Uint8Array;
+
+                switch (file.type) {
+                    case 'image/png':
+                        resizedImageData = await resizedImage.encode(3);
+                        break;
+                    case 'image/jpeg':
+                        resizedImageData = await resizedImage.encodeJPEG(85);
+                        break;
+                    default:
+                        reject(null);
+                        return;
+                }
+
+                const newBlob = new Blob([resizedImageData], { type: file.type });
                 const newFile = new File([newBlob], file.name, { type: newBlob.type });
 
                 resolve(newFile);
