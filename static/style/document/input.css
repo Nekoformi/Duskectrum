@@ -1,0 +1,259 @@
+/* -----------------------------------------------------------------------------
+9. Input
+----------------------------------------------------------------------------- */
+
+.document button,
+.document a.button,
+.document label.button,
+.document input,
+/* .document input::file-selector-button, */
+.document select,
+.document textarea,
+.document button.plain,
+.document a.button.plain,
+.document label.button.plain,
+.document input.plain,
+.document select.plain,
+.document textarea.plain,
+.document button.plain:hover,
+.document a.button.plain:hover,
+.document label.button.plain:hover,
+.document input.plain:hover,
+.document select.plain:hover,
+.document textarea.plain:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    border: none;
+    outline: none;
+    appearance: none;
+    color: inherit;
+    background-color: transparent;
+}
+
+.document .line,
+.document .col,
+.document fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--document_input_margin);
+    margin: var(--document_item_margin) 0;
+    padding: 0;
+    border: 0;
+}
+.document .col,
+.document fieldset.list {
+    flex-direction: column;
+}
+.document fieldset.inline {
+    display: inline-flex;
+}
+.document .line:first-child,
+.document .col:first-child,
+.document fieldset:first-child {
+    margin-top: 0;
+}
+.document .line:last-child,
+.document .col:last-child,
+.document fieldset:last-child {
+    margin-bottom: 0;
+}
+
+.document .line .label,
+.document .col .label,
+.document fieldset .label {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+.document .line .label.left,
+.document .col .label.left,
+.document fieldset .label.left {
+    justify-content: flex-start;
+}
+.document .line .label.center,
+.document .col .label.center,
+.document fieldset .label.center {
+    justify-content: center;
+}
+.document .line .label.right,
+.document .col .label.right,
+.document fieldset .label.right {
+    justify-content: flex-end;
+}
+.document .line .part,
+.document .col .part,
+.document fieldset .part {
+    display: flex;
+    flex-direction: column;
+}
+.document .line.grow > * {
+    flex-grow: 1;
+}
+
+.document legend {
+    pointer-events: none;
+    user-select: none;
+    margin: var(--document_input_margin);
+    padding: 0;
+    font-weight: bold;
+    font-size: calc(var(--document_font_size) * 0.75);
+    color: var(--document_color_half);
+}
+
+.document button:disabled,
+.document a.button.disabled,
+.document label.button.disabled,
+/* .document input::file-selector-button:disabled, */
+.document select:disabled,
+.document textarea:disabled,
+.document input:disabled,
+.document input[type='checkbox']:disabled + label,
+.document input[type='radio']:disabled + label {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.document button,
+.document a.button,
+.document label.button,
+/* .document input::file-selector-button, */
+.document select {
+    user-select: none;
+    cursor: pointer;
+    margin: var(--document_input_margin);
+    padding: var(--document_input_padding);
+    font-weight: bold;
+    border-radius: var(--document_input_padding);
+    border: solid 1px var(--document_color_text);
+    color: var(--document_color_background);
+    background-color: var(--document_color_text);
+}
+.document button:hover,
+.document a.button:hover,
+.document label.button:hover,
+/* .document input::file-selector-button:hover, */
+.document select:hover {
+    border: solid 1px var(--document_color_half);
+    background-color: var(--document_color_half);
+}
+
+.document .selectWrap {
+    position: relative;
+}
+.document .selectWrap::before {
+    pointer-events: none;
+    content: '';
+    position: absolute;
+    display: block;
+    top: calc(50% - var(--document_font_size) / 3 * 0.25);
+    right: calc(var(--document_input_margin) + var(--document_input_padding) - var(--document_font_size) / 3);
+    margin: 0 calc(var(--document_font_size) * 0.5);
+    border-top: solid calc(var(--document_font_size) / 3) var(--document_color_background);
+    border-left: solid calc(var(--document_font_size) / 3) transparent;
+    border-right: solid calc(var(--document_font_size) / 3) transparent;
+}
+
+.document .selectWrap > select {
+    padding-right: calc(var(--document_input_padding) + var(--document_font_size));
+}
+
+.document textarea {
+    box-sizing: content-box;
+    width: 100%;
+    height: 120px;
+    margin: var(--document_input_margin);
+    padding: var(--document_input_padding);
+    text-align: left;
+    border-radius: var(--document_input_padding);
+    border: solid 1px var(--document_color_text);
+}
+
+.document input[type='text'],
+.document input[type='number'],
+.document input[type='password'] {
+    width: calc(var(--document_input_margin) * 2 + var(--document_input_padding) * 2 + var(--document_font_size) * 16);
+    height: auto;
+    margin: var(--document_input_margin);
+    padding: var(--document_input_padding);
+    text-align: left;
+    border-radius: var(--document_input_padding);
+    border: solid 1px var(--document_color_text);
+}
+.document input[type='number'] {
+    width: calc(var(--document_input_margin) * 2 + var(--document_input_padding) * 2 + var(--document_font_size) * 4);
+}
+
+.document input[type='checkbox'],
+.document input[type='radio'] {
+    display: none;
+}
+.document input[type='checkbox'] + label,
+.document input[type='radio'] + label {
+    cursor: pointer;
+    position: relative;
+    margin: var(--document_list_space) 0 var(--document_list_space) var(--document_list_indent);
+    background-color: transparent;
+}
+.document *:first-child > input[type='checkbox'] + label,
+.document *:first-child > input[type='radio'] + label {
+    margin-top: 0;
+}
+.document *:last-child > input[type='checkbox'] + label,
+.document *:last-child > input[type='radio'] + label {
+    margin-bottom: 0;
+}
+.document input[type='checkbox'] + label:hover,
+.document input[type='radio'] + label:hover {
+    background-color: var(--document_color_half);
+}
+
+.document input[type='checkbox'] + label::before,
+.document input[type='radio'] + label::before {
+    box-sizing: border-box;
+    content: '';
+    position: absolute;
+    display: block;
+    top: calc(var(--document_font_size) * 0.5 + var(--document_list_space) * 0.5 - var(--document_font_size) * 0.375);
+    left: calc((var(--document_list_indent) * 0.5 + var(--document_font_size) * 0.375) * -1);
+    width: calc(var(--document_font_size) * 0.75);
+    height: calc(var(--document_font_size) * 0.75);
+    border: solid 1px var(--document_color_text);
+}
+.document input[type='radio'] + label::before {
+    border-radius: 50%;
+}
+.document input[type='checkbox'] + label::after,
+.document input[type='radio'] + label::after {
+    box-sizing: border-box;
+    content: '';
+    position: absolute;
+    display: block;
+    top: calc(var(--document_font_size) * 0.5 + var(--document_list_space) * 0.5 - var(--document_font_size) * 0.125);
+    left: calc((var(--document_list_indent) * 0.5 + var(--document_font_size) * 0.125) * -1);
+    width: calc(var(--document_font_size) * 0.25);
+    height: calc(var(--document_font_size) * 0.25);
+    background-color: var(--document_color_text);
+    opacity: 0;
+}
+.document input[type='checkbox']:checked + label::after,
+.document input[type='radio']:checked + label::after {
+    opacity: 1;
+}
+.document input[type='radio']:checked + label::after {
+    border-radius: 50%;
+}
+
+.document input[type='file'] {
+    text-align: left;
+}
+.document input[type='file'].hidden {
+    display: none;
+}

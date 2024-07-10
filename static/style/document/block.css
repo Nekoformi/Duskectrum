@@ -1,0 +1,153 @@
+/* -----------------------------------------------------------------------------
+5. Block
+----------------------------------------------------------------------------- */
+
+.document section,
+.document address,
+.document blockquote,
+.document figure,
+.document figcaption,
+.document .content,
+.document .hugeContent,
+.document .math,
+.document .caption {
+    width: 100%;
+    height: auto;
+    margin: var(--document_item_margin) 0;
+    padding: 0;
+}
+.document section {
+    margin: var(--document_block_margin) 0;
+}
+.document section:first-child,
+.document address:first-child,
+.document blockquote:first-child,
+.document figure:first-child,
+.document figcaption:first-child,
+.document .content:first-child,
+.document .hugeContent:first-child,
+.document .math:first-child,
+.document .caption:first-child {
+    margin-top: 0;
+}
+.document section:last-child,
+.document address:last-child,
+.document blockquote:last-child,
+.document figure:last-child,
+.document figcaption:last-child,
+.document .content:last-child,
+.document .hugeContent:last-child,
+.document .math:last-child,
+.document .caption:last-child {
+    margin-bottom: 0;
+}
+
+.document pre {
+    overflow-x: auto;
+    margin: 0;
+    padding: 0;
+    word-break: break-all;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: inherit;
+    color: inherit;
+}
+/* .document pre {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.document pre::-webkit-scrollbar {
+    display: none;
+} */
+
+.document pre > code {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    border-radius: 0;
+    color: inherit;
+    background-color: inherit;
+}
+
+.document address {
+    padding-left: calc(var(--document_list_indent) - 3px);
+    border-left: solid 3px var(--document_color_text);
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: inherit;
+    color: inherit;
+}
+
+.document blockquote {
+    padding-left: calc(var(--document_list_indent) - 1px);
+    border-left: double 3px var(--document_color_half);
+    font-family: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: inherit;
+    color: var(--document_color_half);
+}
+
+.document figcaption,
+.document .caption {
+    width: 100%;
+    text-align: center;
+    font-family: inherit;
+    font-style: italic;
+    font-weight: bold;
+    font-size: inherit;
+    color: inherit;
+}
+
+.document .hugeContent,
+.document .math {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+/* .document .hugeContent,
+.document .math {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.document .hugeContent::-webkit-scrollbar,
+.document .math::-webkit-scrollbar {
+    display: none;
+} */
+
+.document .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--document_gallery_padding);
+    width: 100%;
+    height: auto;
+}
+.document .gallery:first-of-type {
+    margin-top: 0;
+}
+.document .gallery:last-of-type {
+    margin-bottom: 0;
+}
+.document .gallery.nowrap {
+    flex-wrap: nowrap;
+}
+
+.document .gallery > * {
+    display: block;
+    width: calc(50% - var(--document_gallery_padding) * 2);
+}
+
+@media screen and (max-width: 639px) {
+    .document .gallery > * {
+        width: calc(100% - var(--document_gallery_padding) * 2);
+    }
+}
+
+@media print {
+    .document pre {
+        white-space: pre-wrap;
+    }
+}
