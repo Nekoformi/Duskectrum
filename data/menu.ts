@@ -104,10 +104,6 @@ export const menuData: menuDataType[] = [
                         content: '/work/illustration/post-SummerWithAnUnknownGirl',
                     },
                     {
-                        name: 'A Sharp Unknown Girl',
-                        content: '/work/illustration/post-A_SharpUnknownGirl',
-                    },
-                    {
                         name: 'Oh My Chars!',
                         content: '/work/illustration/post-OhMyChars',
                     },
