@@ -148,6 +148,10 @@ export const menuData: menuDataType[] = [
                         content: '/note/bash/post-SetAutomaticExecutionBashScript',
                     },
                     {
+                        name: 'Generate Noise',
+                        content: '/note/bash/post-GenerateNoise',
+                    },
+                    {
                         name: 'Extract Zip Files',
                         content: '/note/bash/post-ExtractZipFiles',
                     },
