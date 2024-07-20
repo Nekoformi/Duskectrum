@@ -1,4 +1,5 @@
 import Link from '@components/Common/Link.tsx';
+import PixelatedImage from '@components/Common/PixelatedImage.tsx';
 import Frame from '@myFrame';
 
 export const page_en = (
@@ -69,6 +70,14 @@ export const page_en = (
                 </>
             </Frame>
         </div>
+
+        <h2>Credit</h2>
+
+        <PixelatedImage src='/image/sara.png' width={256} height={256}></PixelatedImage>
+
+        <p class='tc'>
+            Copyright © 2024 Sara Kotova, Nekoformi, at_0111 all rights reserved.
+        </p>
     </>
 );
 
@@ -140,5 +149,13 @@ export const page_ja = (
                 </>
             </Frame>
         </div>
+
+        <h2>クレジット</h2>
+
+        <PixelatedImage src='/image/sara.png' width={256} height={256}></PixelatedImage>
+
+        <p class='tc'>
+            Copyright © 2024 Sara Kotova, Nekoformi, at_0111 全ての権利を留保しています。
+        </p>
     </>
 );
