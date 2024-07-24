@@ -35,7 +35,7 @@ $ bash ~/"Some Bash Script B.sh"
 Hello, Jane Smith!
 ```
 
-## Install Advanced Packaging Tool
+## Install Advanced Packaging Tool, etc.
 
 コンピューターのセットアップでは多くのパッケージをインストールすると思います。それを何度も繰り返す場合は、操作をファイルに纏めたり、その操作すらも関数に纏めます。
 
@@ -47,6 +47,7 @@ Hello, Jane Smith!
 #!/bin/bash
 
 aptInstall curl
+snapInstall blender --classic
 ```
 
 ## Copy File / Folder / Zip Data
@@ -67,6 +68,34 @@ cpZipData ~/"Test Data.zip" ~/"New Data/Copy Data"
 
 - 変数展開とパターンマッチ（`${変数名(#|##|%|%%)パターン}`）を用いることでパスを正規化します。
 - 複製先にファイルやディレクトリーが存在する場合に対象を削除している（＝複製先を置換している）ため、それを望まない場合は関数内の`rm`コマンドを削除する必要があります。
+
+## Create Empty File / Insert New Line
+
+空のファイルを作成する場合は`touch`コマンドが有効ですが、空の文字列をリダイレクション（`>`）して作成することも可能です。
+
+```sh:Some Bash Script.sh
+[](/data/page/note/bash/post-Utility/createEmptyFile.sh)
+```
+
+```sh:Some Bash Script.sh
+#!/bin/bash
+
+sudoCreateEmptyFile /root/joke
+```
+
+```sh:Some Bash Script.sh
+[](/data/page/note/bash/post-Utility/insertNewLine.sh)
+```
+
+```sh:Some Bash Script.sh
+#!/bin/bash
+
+sudoInsertNewLine /root/joke "Hello, world!"
+```
+
+- 出力をリダイレクションした場合は改行が挿入される（2行になる）ため、`sed`コマンドを用いて1行目の改行を削除したもの（無）をファイルに書き込みます。
+- リダイレクションによるファイルの書き込みは`sudo`で行えないため、`tee`コマンドを使用します。また、インターフェースに出力しないよう`1> /dev/null`で結果を虚無に放り込みます。
+- `echo`コマンドでは`-e`オプションを付与することでエスケープシーケンス（改行を表す`\n`等）を解釈します。
 
 ## Change Permission / Timestamp
 
