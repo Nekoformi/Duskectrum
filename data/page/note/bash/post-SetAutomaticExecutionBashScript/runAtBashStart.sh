@@ -1,6 +1,10 @@
 #!/bin/bash
 
 alias ll="ls -lhvA --time-style=\"+%Y/%m/%d %H:%M:%S\""
+alias shf="sudo shred -n 1 -uz $1"
+alias shd="find ./ -name '*' -type f -print0 | xargs -0 -i -P 1 sudo shred -n 1 -uz {}"
+alias rmf="sudo rm -f $1"
+alias rmd="sudo rm -rf ./*"
 
 function cleanTerminal() {
     history -c
