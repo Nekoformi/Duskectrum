@@ -79,6 +79,10 @@ export const deleteJokeData = async (jokeId: string, name: string, code: string,
 
     if (!USE_SUPABASE_DATABASE) return returnErrorProps('This is debug mode!');
 
+    const jokeData = await getJokeDataById(jokeId);
+
+    if (!jokeData) return returnErrorProps('Failed to get joke!');
+
     if (!name || !code) return returnErrorProps(`Please enter ${concatWords([!name ? 'name' : '', !code ? 'code' : ''])}!`);
 
     const pass = await getSha256(`${name}+${code}`);
@@ -102,7 +106,7 @@ export const deleteJokeData = async (jokeId: string, name: string, code: string,
             case 2:
                 return returnErrorProps('User authentication failed!');
         }
-    } else if (USE_SUPABASE_STORAGE) {
+    } else if (USE_SUPABASE_STORAGE && jokeData.image) {
         const deleteJokeImageResult = await deleteJokeImage(
             {
                 jokeId: jokeId,
