@@ -21,3 +21,4 @@ author: Sara Kotova
 - [02 森の世界](/work/novel/post-NestMinusZero/02)
 - [03 沌の世界](/work/novel/post-NestMinusZero/03)
 - [04 梵の世界](/work/novel/post-NestMinusZero/04)
+- [05 秋の世界](/work/novel/post-NestMinusZero/05)
