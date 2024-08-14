@@ -245,6 +245,41 @@ export const menuData: menuDataType[] = [
     },
 ];
 
+export const menuDataDraft: menuDataType[] = [
+    {
+        name: 'Work',
+        isOpen: true,
+        content: [
+            {
+                name: 'Illustration',
+                isOpen: false,
+                content: [
+                    {
+                        name: 'Touhou Geometry',
+                        isOpen: true,
+                        content: [
+                            {
+                                name: 'Summary',
+                                content: '/work/illustration/post-TouhouGeometry/summary',
+                            },
+                            {
+                                name: '0001 → 0010',
+                                isOpen: false,
+                                content: [
+                                    {
+                                        name: '0001 Hakurei Reimu',
+                                        content: '/work/illustration/post-TouhouGeometry/0001',
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                ],
+            },
+        ],
+    },
+];
+
 export const menuDataSample: menuDataType[] = [
     {
         name: 'Home',
