@@ -231,6 +231,10 @@ export const menuData: menuDataType[] = [
                         name: 'How to Draw My Style',
                         content: '/note/other/post-HowToDrawMyStyle',
                     },
+                    {
+                        name: 'Decoding the Video Posted by ngethoma (Failed)',
+                        content: '/note/other/post-DecodingTheVideoPostedByNgethoma',
+                    },
                 ],
             },
         ],

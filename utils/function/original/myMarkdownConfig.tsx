@@ -86,7 +86,7 @@ export const myMarkedRenderer: TokenizerAndRendererExtension[] = [
 ];
 
 export const mySanitizeOption: IOptions = {
-    allowedTags: sanitizeHtml.defaults.allowedTags.concat(['s', 'del', 'ins', 'img', 'video']),
+    allowedTags: sanitizeHtml.defaults.allowedTags.concat(['s', 'del', 'ins', 'img', 'video', 'iframe']),
     allowedAttributes: {
         div: ['class'],
         span: ['class'],
@@ -98,6 +98,7 @@ export const mySanitizeOption: IOptions = {
         td: ['class', 'colspan', 'rowspan'],
         img: ['src', 'title', 'width', 'height'],
         video: ['src', 'title', 'width', 'height'],
+        iframe: ['src', 'title'],
     },
 };
 
@@ -200,6 +201,16 @@ export const myParsedRenderer: rendererType[] = [
         },
     },
     {
+        tag: 'table',
+        function: (_node: Node, _element: Element, _content: JSX.Element) => {
+            return (
+                <div class='hugeContent'>
+                    <table>{_content}</table>
+                </div>
+            );
+        },
+    },
+    {
         tag: 'video',
         function: (_node: Node, _element: Element, _content: JSX.Element) => {
             const src = _element.getAttribute('src') || undefined;
@@ -216,6 +227,23 @@ export const myParsedRenderer: rendererType[] = [
 
                     {title && <figcaption>{title}</figcaption>}
                 </figure>
+            );
+        },
+    },
+    {
+        tag: 'iframe',
+        function: (_node: Node, _element: Element, _content: JSX.Element) => {
+            const src = _element.getAttribute('src') || undefined;
+            const title = _element.getAttribute('title') || undefined;
+
+            return (
+                <div class='content'>
+                    <div class='frame'>
+                        <iframe src={src} style='border: 0' loading='lazy' width='100%' height='100%'></iframe>
+                    </div>
+
+                    {title && <div class='caption'>{title}</div>}
+                </div>
             );
         },
     },
