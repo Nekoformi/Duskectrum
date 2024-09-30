@@ -23,3 +23,4 @@ author: Sara Kotova
 - [04 梵の世界](/work/novel/post-NestMinusZero/04)
 - [05 秋の世界](/work/novel/post-NestMinusZero/05)
 - [06 鉄の世界](/work/novel/post-NestMinusZero/06)
+- [07 白の世界](/work/novel/post-NestMinusZero/07)
