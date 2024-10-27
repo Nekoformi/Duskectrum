@@ -1,0 +1,38 @@
+/* -----------------------------------------------------------------------------
+4. Decoration
+----------------------------------------------------------------------------- */
+
+.document .topArrow,
+.document .bottomArrow,
+.document .leftArrow,
+.document .rightArrow {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+}
+.document .topArrow {
+    margin: 0 calc(var(--document_font_size) * 0.5);
+    border-top: solid calc(var(--document_font_size) / 3) var(--document_color_text);
+    border-left: solid calc(var(--document_font_size) / 3) transparent;
+    border-right: solid calc(var(--document_font_size) / 3) transparent;
+}
+.document .bottomArrow {
+    margin: 0 calc(var(--document_font_size) * 0.5);
+    border-bottom: solid calc(var(--document_font_size) / 3) var(--document_color_text);
+    border-left: solid calc(var(--document_font_size) / 3) transparent;
+    border-right: solid calc(var(--document_font_size) / 3) transparent;
+}
+.document .leftArrow {
+    margin: 0 calc(var(--document_font_size) * 2 / 3);
+    border-top: solid calc(var(--document_font_size) / 3) transparent;
+    border-bottom: solid calc(var(--document_font_size) / 3) transparent;
+    border-right: solid calc(var(--document_font_size) / 3) var(--document_color_text);
+}
+.document .rightArrow {
+    margin: 0 calc(var(--document_font_size) * 2 / 3);
+    border-top: solid calc(var(--document_font_size) / 3) transparent;
+    border-bottom: solid calc(var(--document_font_size) / 3) transparent;
+    border-left: solid calc(var(--document_font_size) / 3) var(--document_color_text);
+}

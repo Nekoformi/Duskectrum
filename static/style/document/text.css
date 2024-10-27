@@ -1,0 +1,189 @@
+/* -----------------------------------------------------------------------------
+3. Text
+----------------------------------------------------------------------------- */
+
+.document strong {
+    text-decoration: underline wavy var(--document_color_strong);
+    text-underline-position: above;
+    font-style: normal;
+    font-weight: bold;
+    color: var(--document_color_strong);
+}
+.document em {
+    text-decoration: underline solid var(--document_color_emphasis);
+    text-underline-position: above;
+    font-style: normal;
+    font-weight: bold;
+    color: var(--document_color_emphasis);
+}
+.document b {
+    text-decoration: none;
+    text-underline-position: none;
+    font-style: inherit;
+    font-weight: bold;
+    color: var(--document_color_bold);
+}
+
+.document i {
+    margin: 0 var(--document_italic_margin) 0 0;
+    text-decoration: none;
+    text-underline-position: none;
+    font-style: italic;
+    font-weight: inherit;
+}
+
+.document s {
+    text-decoration: line-through double var(--document_color_inactive);
+    text-underline-offset: calc(var(--document_font_size) * -0.5);
+    font-style: inherit;
+    font-weight: inherit;
+    color: var(--document_color_inactive);
+}
+
+.document ins {
+    margin: 0;
+    padding: 0;
+    text-decoration: underline solid var(--document_color_insert);
+    text-underline-position: above;
+    font-style: inherit;
+    font-weight: bold;
+    color: var(--document_color_insert);
+}
+.document del {
+    margin: 0;
+    padding: 0;
+    text-decoration: line-through double var(--document_color_delete);
+    text-underline-offset: calc(var(--document_font_size) * -0.5);
+    font-style: inherit;
+    font-weight: bold;
+    color: var(--document_color_delete);
+}
+
+.document a {
+    text-decoration: underline dotted var(--document_color_link);
+    text-underline-position: above;
+    font-style: inherit;
+    font-weight: bold;
+    color: var(--document_color_link);
+}
+
+.document q {
+    font-style: italic;
+    font-weight: bold;
+    color: var(--document_color_half);
+}
+.document q::before,
+.document q::after {
+    font-style: normal;
+    font-weight: bold;
+    color: var(--document_color_half);
+}
+.document q::before {
+    content: '“';
+    margin: 0;
+}
+.document q::after {
+    content: '”';
+    margin: 0 0 0 var(--document_italic_margin);
+}
+
+.document dfn {
+    margin: 0 var(--document_italic_margin) 0 0;
+    font-style: italic;
+    font-weight: bold;
+}
+.document abbr {
+    text-decoration: underline dotted var(--document_color_text);
+    text-underline-position: above;
+    font-style: normal;
+    font-weight: normal;
+    color: var(--document_color_text);
+}
+
+.document sup {
+    vertical-align: super;
+    font-size: calc(var(--document_font_size) * 0.75);
+}
+.document sub {
+    vertical-align: sub;
+    font-size: calc(var(--document_font_size) * 0.75);
+}
+
+.document code {
+    margin: 0 calc(var(--document_font_size) * 0.25);
+    padding: 0 calc(var(--document_font_size) * 0.25);
+    word-break: break-all;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: bold;
+    border-radius: calc(var(--document_font_size) * 0.25);
+    color: var(--document_color_background);
+    background-color: var(--document_color_text);
+}
+.document var {
+    margin: 0 calc(var(--document_font_size) * 0.25);
+    padding: 0 calc(var(--document_font_size) * 0.25);
+    word-break: break-all;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: bold;
+    border-radius: calc(var(--document_font_size) * 0.25);
+    color: var(--document_color_background);
+    background-color: var(--document_color_half);
+}
+
+.document .red_tc {
+    color: #f00;
+}
+.document .orange_tc {
+    color: #f80;
+}
+.document .yellow_tc {
+    color: #ff0;
+}
+.document .lime_tc {
+    color: #0f0;
+}
+.document .green_tc {
+    color: #080;
+}
+.document .aqua_tc {
+    color: #0ff;
+}
+.document .blue_tc {
+    color: #00f;
+}
+.document .purple_tc {
+    color: #808;
+}
+.document .gray_tc {
+    color: #888;
+}
+
+.document .red_bc {
+    background-color: #f00;
+}
+.document .orange_bc {
+    background-color: #f80;
+}
+.document .yellow_bc {
+    background-color: #ff0;
+}
+.document .lime_bc {
+    background-color: #0f0;
+}
+.document .green_bc {
+    background-color: #080;
+}
+.document .aqua_bc {
+    background-color: #0ff;
+}
+.document .blue_bc {
+    background-color: #00f;
+}
+.document .purple_bc {
+    background-color: #808;
+}
+.document .gray_bc {
+    background-color: #888;
+}

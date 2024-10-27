@@ -1,0 +1,71 @@
+/* -----------------------------------------------------------------------------
+1. Heading
+----------------------------------------------------------------------------- */
+
+.document h1,
+.document h2,
+.document h3,
+.document h4,
+.document h5,
+.document h6 {
+    font-weight: bold;
+    margin: var(--document_block_margin) 0 var(--document_item_margin);
+}
+.document h1 + h1,
+.document h1 + h2,
+.document h1 + h3,
+.document h1 + h4,
+.document h1 + h5,
+.document h1 + h6,
+.document h2 + h2,
+.document h2 + h3,
+.document h2 + h4,
+.document h2 + h5,
+.document h2 + h6,
+.document h3 + h3,
+.document h3 + h4,
+.document h3 + h5,
+.document h3 + h6,
+.document h4 + h4,
+.document h4 + h5,
+.document h4 + h6,
+.document h5 + h5,
+.document h5 + h6,
+.document h6 + h6,
+.document .joinHeading {
+    margin-top: 0;
+}
+.document h1:first-child,
+.document h2:first-child,
+.document h3:first-child,
+.document h4:first-child,
+.document h5:first-child,
+.document h6:first-child {
+    margin-top: 0;
+}
+.document h1:last-child,
+.document h2:last-child,
+.document h3:last-child,
+.document h4:last-child,
+.document h5:last-child,
+.document h6:last-child {
+    margin-bottom: 0;
+}
+.document h1 {
+    font-size: 200%;
+}
+.document h2 {
+    font-size: 175%;
+}
+.document h3 {
+    font-size: 150%;
+}
+.document h4 {
+    font-size: 125%;
+}
+.document h5 {
+    font-size: 100%;
+}
+.document h6 {
+    font-size: 75%;
+}
