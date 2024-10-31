@@ -164,6 +164,10 @@ export const menuData: menuDataType[] = [
                         content: '/note/bash/post-SetAutomaticExecutionBashScript',
                     },
                     {
+                        name: 'Set My Proxy',
+                        content: '/note/bash/post-SetMyProxy',
+                    },
+                    {
                         name: 'Generate Noise',
                         content: '/note/bash/post-GenerateNoise',
                     },
