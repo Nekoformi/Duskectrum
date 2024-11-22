@@ -1,0 +1,94 @@
+/* -----------------------------------------------------------------------------
+6. List
+----------------------------------------------------------------------------- */
+
+.document ul,
+.document ol,
+.document dl {
+    margin: var(--document_item_margin) 0;
+    padding: 0;
+}
+.document ul:first-child,
+.document ol:first-child,
+.document dl:first-child {
+    margin-top: 0;
+}
+.document ul:last-child,
+.document ol:last-child,
+.document dl:last-child {
+    margin-bottom: 0;
+}
+
+.document ul > ul,
+.document ul > ol,
+.document ol > ul,
+.document ol > ol {
+    margin: var(--document_list_space) 0 var(--document_list_space) var(--document_list_indent);
+}
+
+.document ul > li,
+.document ol > li,
+.document dl > dt,
+.document dl > dd {
+    position: relative;
+    margin: var(--document_list_space) 0 var(--document_list_space) var(--document_list_indent);
+}
+.document ul > li:first-child,
+.document ol > li:first-child,
+.document dl > dt:first-child,
+.document dl > dd:first-child {
+    margin-top: 0;
+}
+.document ul > li:last-child,
+.document ol > li:last-child,
+.document dl > dt:last-child,
+.document dl > dd:last-child {
+    margin-bottom: 0;
+}
+
+.document li > ul,
+.document li > ol,
+.document dt > dl,
+.document dd > dl {
+    margin: var(--document_list_space) 0;
+}
+.document li > ul:first-child,
+.document li > ol:first-child,
+.document dt > dl:first-child,
+.document dd > dl:first-child {
+    margin-top: var(--document_list_space);
+}
+
+.document ul > li::before,
+.document dl > dd::before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: calc(var(--document_font_size) * 0.5 + var(--document_list_space) * 0.5 - var(--document_font_size) * 0.125);
+    left: calc((var(--document_list_indent) * 0.5 + var(--document_font_size) * 0.125) * -1);
+    width: calc(var(--document_font_size) * 0.25);
+    height: calc(var(--document_font_size) * 0.25);
+    background: var(--document_color_text);
+}
+
+.document ul {
+    list-style-type: none;
+}
+.document ul > li::before {
+    border-radius: 50%;
+}
+
+.document ol {
+    list-style-type: decimal;
+}
+.document ol > li::marker {
+    font-weight: bold;
+}
+
+.document dl > dt {
+    margin-left: 0;
+    font-weight: bold;
+}
+.document dl > dd::before {
+    border-radius: 0;
+}

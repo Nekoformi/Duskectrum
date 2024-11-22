@@ -1,0 +1,7 @@
+.myFrameButton {
+    transition: 0.1s;
+}
+
+.myFrameButton:hover {
+    opacity: 0.5;
+}
