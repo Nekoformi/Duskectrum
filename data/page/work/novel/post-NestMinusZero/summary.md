@@ -25,3 +25,4 @@ author: Sara Kotova
 - [06 鉄の世界](/work/novel/post-NestMinusZero/06)
 - [07 白の世界](/work/novel/post-NestMinusZero/07)
 - [08 戦の世界](/work/novel/post-NestMinusZero/08)
+- [09 舎の世界](/work/novel/post-NestMinusZero/09)

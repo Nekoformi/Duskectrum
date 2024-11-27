@@ -105,6 +105,10 @@ export const menuData: menuDataType[] = [
                                         name: '08 戦の世界',
                                         content: '/work/novel/post-NestMinusZero/08',
                                     },
+                                    {
+                                        name: '09 舎の世界',
+                                        content: '/work/novel/post-NestMinusZero/09',
+                                    },
                                 ],
                             },
                         ],
