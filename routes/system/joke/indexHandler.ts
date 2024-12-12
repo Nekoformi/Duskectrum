@@ -1,7 +1,9 @@
 import { FreshContext } from '$fresh/server.ts';
-import { USE_SUPABASE_DATABASE, USE_SUPABASE_STORAGE } from '@data/dev.ts';
+import { USE_DATABASE_TYPE, USE_STORAGE_TYPE } from '@data/dev.ts';
 import { getJokeDataLength, getPartJokeData, jokeData, postJoke } from '@database/joke.ts';
 import { convertJokeImageLink, updateJokeImage } from '@database/jokeStorage.ts';
+import { getLocalJokeData } from '@database/local/joke.ts';
+import { getLocalUserData } from '@database/local/user.ts';
 import { testJokeDatabase } from '@database/test/joke.ts';
 import { testUserDatabase } from '@database/test/user.ts';
 import { getAllUserData, getUserDataByPass, userData } from '@database/user.ts';
@@ -59,14 +61,15 @@ const getPage = (currentPage: number, jokeDataLength: number): pageProps => ({
 });
 
 export const getJokeData = async (pageNum: number): Promise<getJokeProps> => {
-    const jokeDataLength = USE_SUPABASE_DATABASE ? (await getJokeDataLength()) || 0 : testJokeDatabase.length;
+    const jokeData = USE_DATABASE_TYPE === 0 ? testJokeDatabase : USE_DATABASE_TYPE === 1 ? await getLocalJokeData() : [];
+    const jokeDataLength = USE_DATABASE_TYPE === 2 ? (await getJokeDataLength()) || 0 : jokeData.length;
 
-    const page = getPage(pageNum, jokeDataLength);
-    const user = USE_SUPABASE_DATABASE ? await getAllUserData() : testUserDatabase;
-    const joke = USE_SUPABASE_DATABASE ? await getPartJokeData(JOKE_PAGE_LENGTH, getCurrentPageOffset(pageNum)) : testJokeDatabase;
+    const page = getPage(pageNum, USE_DATABASE_TYPE === 2 ? jokeDataLength : 0);
+    const user = USE_DATABASE_TYPE === 2 ? await getAllUserData() : USE_DATABASE_TYPE === 1 ? await getLocalUserData() : testUserDatabase;
+    const joke = USE_DATABASE_TYPE === 2 ? await getPartJokeData(JOKE_PAGE_LENGTH, getCurrentPageOffset(pageNum)) : jokeData;
 
     if (user && joke) {
-        if (USE_SUPABASE_STORAGE) convertJokeImageLink(joke);
+        if (USE_STORAGE_TYPE === 2) convertJokeImageLink(joke);
 
         return {
             res: 0,
@@ -107,7 +110,7 @@ export const postJokeData = async (name: string, code: string, content: string, 
         };
     };
 
-    if (!USE_SUPABASE_DATABASE) return returnProps('This is debug mode!', false);
+    if (USE_DATABASE_TYPE !== 2) return returnProps('This feature is not available in test / local mode!', false);
 
     if (!name || !code || !content) {
         return returnProps(`Please enter ${concatWords([!name ? 'name' : '', !code ? 'code' : '', !content ? 'joke' : ''])}!`, false);
@@ -136,7 +139,7 @@ export const postJokeData = async (name: string, code: string, content: string, 
             case 2:
                 return returnProps('User authentication failed!', false);
         }
-    } else if (USE_SUPABASE_STORAGE && fileMemo) {
+    } else if (USE_STORAGE_TYPE === 2 && fileMemo) {
         const postJokeImageResult = await updateJokeImage(postJokeResult, pass, fileList, fileMemo);
 
         switch (postJokeImageResult) {

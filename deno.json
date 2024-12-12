@@ -44,6 +44,7 @@
         "highlight_js": "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/es/highlight.min.js",
         "time": "https://deno.land/x/time.ts@v2.0.1/mod.ts",
         "ImageScript": "https://deno.land/x/imagescript@1.3.0/mod.ts",
+        "csv": "https://deno.land/std@0.79.0/encoding/csv.ts",
         "@components/": "./components/",
         "@data/": "./data/",
         "@page/": "./data/page/",

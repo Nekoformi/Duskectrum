@@ -1,7 +1,8 @@
 import { FreshContext } from '$fresh/server.ts';
-import { USE_SUPABASE_DATABASE, USE_SUPABASE_STORAGE } from '@data/dev.ts';
+import { USE_DATABASE_TYPE, USE_STORAGE_TYPE } from '@data/dev.ts';
 import { deleteJoke, getJokeDataById } from '@database/joke.ts';
 import { deleteJokeImage, getJokeImageLink } from '@database/jokeStorage.ts';
+import { getLocalJokeData } from '@database/local/joke.ts';
 import { testJokeDatabase } from '@database/test/joke.ts';
 import { getUserDataByPass } from '@database/user.ts';
 import concatWords from '@function/concatWords.ts';
@@ -34,7 +35,9 @@ Response Code:
 export const selectJokeData = async (jokeId: string): Promise<deleteJokeProps> => {
     if (!jokeId) returnNullProps(2);
 
-    const jokeData = USE_SUPABASE_DATABASE ? await getJokeDataById(jokeId) : testJokeDatabase.find((item) => item.jokeId === jokeId);
+    const jokeData = USE_DATABASE_TYPE === 2
+        ? await getJokeDataById(jokeId)
+        : (USE_DATABASE_TYPE === 1 ? await getLocalJokeData() : testJokeDatabase).find((item) => item.jokeId === jokeId);
 
     if (!jokeData) {
         return {
@@ -44,7 +47,7 @@ export const selectJokeData = async (jokeId: string): Promise<deleteJokeProps> =
         };
     }
 
-    const jokeImageLink = USE_SUPABASE_STORAGE ? getJokeImageLink(jokeData) : undefined;
+    const jokeImageLink = USE_STORAGE_TYPE === 2 ? getJokeImageLink(jokeData) : undefined;
 
     if (jokeImageLink === null) {
         return {
@@ -77,7 +80,7 @@ export const deleteJokeData = async (jokeId: string, name: string, code: string,
 
     if (!jokeId) return returnNullProps(2);
 
-    if (!USE_SUPABASE_DATABASE) return returnErrorProps('This is debug mode!');
+    if (USE_DATABASE_TYPE !== 2) return returnErrorProps('This feature is not available in test / local mode!');
 
     const jokeData = await getJokeDataById(jokeId);
 
@@ -106,7 +109,7 @@ export const deleteJokeData = async (jokeId: string, name: string, code: string,
             case 2:
                 return returnErrorProps('User authentication failed!');
         }
-    } else if (USE_SUPABASE_STORAGE && jokeData.image) {
+    } else if (USE_STORAGE_TYPE === 2 && jokeData.image) {
         const deleteJokeImageResult = await deleteJokeImage(
             {
                 jokeId: jokeId,

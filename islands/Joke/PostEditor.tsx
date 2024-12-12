@@ -1,5 +1,5 @@
 import convertTextToElement from '@components/Common/RichText.tsx';
-import { USE_SUPABASE_STORAGE } from '@data/dev.ts';
+import { USE_STORAGE_TYPE } from '@data/dev.ts';
 import { createFormDataFromFormElement } from '@function/getFormDataFromFormElement.ts';
 import toggleFormAllControllerElement from '@function/toggleFormAllControllerElement.ts';
 import FileUploader, { customFileList, customRemoveFileList } from '@islands/Original/Miscellaneous/FileUploader.tsx';
@@ -157,7 +157,7 @@ export default function PostEditor({ title, label, action, move, rec, jokeId, ta
                                     <textarea name='content' value={rec?.content || content}></textarea>
                                 </fieldset>
 
-                                {USE_SUPABASE_STORAGE && (
+                                {USE_STORAGE_TYPE === 2 && (
                                     <FileUploader
                                         initialFileList={rec?.initialFileList}
                                         initialRemoveFileList={rec?.initialRemoveFileList}

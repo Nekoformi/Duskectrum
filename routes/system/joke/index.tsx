@@ -3,6 +3,7 @@ import { Handlers, PageProps } from '$fresh/server.ts';
 
 import PostListController from '@components/Joke/PostListController.tsx';
 import PostViewer from '@components/Joke/PostViewer.tsx';
+import { USE_DATABASE_TYPE } from '@data/dev.ts';
 import convertLocalTime from '@function/convertLocalTime.ts';
 import getTimeDisplay from '@function/getTimeDisplay.ts';
 import PostEditor from '@islands/Joke/PostEditor.tsx';
@@ -31,6 +32,8 @@ export default function Joke({ data }: PageProps<jokeProps>) {
     const error = data.post?.error;
     const rec = data.post?.rec;
 
+    const label = USE_DATABASE_TYPE == 2 ? '' : USE_DATABASE_TYPE == 1 ? 'Local Archive' : 'Local Test';
+
     return (
         <>
             <Head>
@@ -39,7 +42,7 @@ export default function Joke({ data }: PageProps<jokeProps>) {
 
             <Board path={path} type='common' className='document'>
                 <>
-                    <h1>Joke (Tweet System)</h1>
+                    <h1>{label ? `Joke (Tweet System / ${label})` : `Joke (Tweet System)`}</h1>
 
                     <ul>
                         <li>

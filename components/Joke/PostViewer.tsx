@@ -1,6 +1,6 @@
 import PixelatedImage from '@components/Common/PixelatedImage.tsx';
 import convertTextToElement from '@components/Common/RichText.tsx';
-import { USE_SUPABASE_STORAGE } from '@data/dev.ts';
+import { USE_STORAGE_TYPE } from '@data/dev.ts';
 import { profileData } from '@data/profile.ts';
 import { getTimeDisplayRes } from '@function/getTimeDisplay.ts';
 import { registeredFile } from '@islands/Original/Miscellaneous/FileUploader.tsx';
@@ -65,10 +65,56 @@ export default function PostViewer({ jokeId, userId, display, time, content, ima
         }
     };
 
+    const LocalImage = (): JSX.Element => {
+        const LocalImageFrame = ({ item }: { item: string }) => {
+            const title = item || 'NULL';
+
+            return (
+                <Frame
+                    title={title}
+                    width=''
+                    height='auto'
+                    frameStyle='box'
+                    frameType={['setMaximize', 'setHide']}
+                    className='document'
+                    style={{
+                        display: 'flex',
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                    }}
+                >
+                    {item
+                        ? <PixelatedImage src={`/system/joke/${userId}/${jokeId}/${item}`} width={640} height={640} />
+                        : <p class='red_tc'>Failed to get image.</p>}
+                </Frame>
+            );
+        };
+
+        if (image && !Array.isArray(image)) {
+            const list = image.split(',');
+
+            if (list.length === 1) {
+                return (
+                    <div class='content'>
+                        <LocalImageFrame item={list[0]} />
+                    </div>
+                );
+            } else {
+                return (
+                    <div class='gallery'>
+                        {list.map((item) => <LocalImageFrame item={item} />)}
+                    </div>
+                );
+            }
+        } else {
+            return <></>;
+        }
+    };
+
     return (
         <Frame title={`${time.date} ${time.time} | ${display}:`} height='auto' frameStyle='card' frameType={['setMaximize', 'setHide']} className='document'>
             <>
-                {USE_SUPABASE_STORAGE && <Image />}
+                {USE_STORAGE_TYPE === 2 ? <Image /> : USE_STORAGE_TYPE === 1 ? <LocalImage /> : <></>}
 
                 <p>{convertTextToElement(content)}</p>
 
