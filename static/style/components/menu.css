@@ -1,0 +1,7 @@
+.myMenuButton {
+    transition: 0.1s;
+}
+
+.myMenuButton:hover {
+    opacity: 0.5;
+}

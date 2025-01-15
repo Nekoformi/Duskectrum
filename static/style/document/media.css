@@ -1,0 +1,70 @@
+/* -----------------------------------------------------------------------------
+8. Media
+----------------------------------------------------------------------------- */
+
+.document img,
+.document video,
+.document audio {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+    object-fit: contain; /* object-fit: cover; */
+}
+.document .block > img,
+.document figure > img,
+.document .block > video,
+.document figure > video,
+.document .block > audio,
+.document figure > audio {
+    margin: var(--document_item_margin) 0;
+}
+.document .block > img:first-child,
+.document figure > img:first-of-type,
+.document .block > video:first-child,
+.document figure > video:first-of-type,
+.document .block > audio:first-child,
+.document figure > audio:first-of-type {
+    margin-top: 0;
+}
+.document .block > img:last-child,
+.document figure > img:last-of-type,
+.document .block > video:last-child,
+.document figure > video:last-of-type,
+.document .block > audio:last-child,
+.document figure > audio:last-of-type {
+    margin-bottom: 0;
+}
+
+.document .frame {
+    position: relative;
+    width: 100%;
+    height: 0;
+    margin: var(--document_item_margin) 0;
+    padding-bottom: 56.25%;
+}
+.document .frame:first-child {
+    margin-top: 0;
+}
+.document .frame:last-child {
+    margin-bottom: 0;
+}
+
+.document .frame > img,
+.document .frame > video,
+.document .frame > audio,
+.document .frame > iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: none;
+    object-fit: contain; /* object-fit: cover; */
+}
+
+@media print {
+    .document .frame {
+        break-inside: avoid;
+    }
+}

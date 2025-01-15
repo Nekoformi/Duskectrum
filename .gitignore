@@ -1,0 +1,9 @@
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+_fresh/
+node_modules/
+raw/
+MEMO.md

@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'SourceHanSansHW';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../font/SourceHanSansHW-Regular_Subset.woff');
+}
+
+@font-face {
+    font-family: 'SourceHanSansHW';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../font/SourceHanSansHW-Bold_Subset.woff');
+}
+
+:root {
+    --document_color_text: #fff;
+    --document_color_background: #000;
+    --document_color_half: #888;
+    --document_color_strong: #f88;
+    --document_color_emphasis: #f80;
+    --document_color_bold: #fff;
+    --document_color_insert: #4c4;
+    --document_color_delete: #c44;
+    --document_color_inactive: #888;
+    --document_color_link: #8ff;
+    --document_color_warning: #a22;
+    --document_color_example: #2a2;
+    --document_color_point: #22a;
+
+    --document_font_size: 12pt;
+    --document_italic_margin: calc(var(--document_font_size) * 0.25);
+    --document_block_margin: calc(var(--document_font_size) * 3);
+    --document_item_margin: var(--document_font_size);
+    --document_list_indent: calc(var(--document_font_size) * 2);
+    --document_list_space: calc(var(--document_font_size) * 0.5);
+    --document_table_padding: 4px;
+    --document_gallery_padding: 4px;
+    --document_input_margin: 4px;
+    --document_input_padding: 4px;
+}
+
+/* :root {
+    --document_color_text: #000;
+    --document_color_background: #fff;
+    --document_color_bold: #000;
+    --document_color_link: #088;
+} # IS_PRINT_MODE == true */
+
+html {
+    font-family: 'SourceHanSansHW', monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: var(--document_font_size);
+}

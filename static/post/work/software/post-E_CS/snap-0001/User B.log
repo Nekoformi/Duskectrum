@@ -1,0 +1,1504 @@
+[2024/11/30 11:00:23.6464] [MSG] Welcome to Easy Pear to Pear Chat System (E=CS)
+- Set your name with /name <YOUR NAME>
+- Create a network with /create <LISTENING PORT>
+- Join the network with /join <ADDRESS>:<PORT> <LISTENING PORT>
+- Leave the network with /leave
+[2024/11/30 11:00:23.8023] [MSG] ▶ /join 0.0.0.0:20000 20001
+[2024/11/30 11:00:23.8654] [SYS] Try to join the network...
+[2024/11/30 11:00:23.8734] [MSG] Join the secure network: 127.0.1.1:20000
+[2024/11/30 11:00:24.0861] [MSG] Connect to new node: 127.0.1.1:20000
+[2024/11/30 11:00:24.0866] [SYS] Start a node stream...
+[2024/11/30 11:00:24.0893] [SYS] Send message: "/alg #a0ed644a4686799fb567b2b9c072e2a4 @50ab0ac...(779)" to 127.0.1.1:20000
+[2024/11/30 11:00:24.0915] [MSG] You have joined the network.
+[2024/11/30 11:00:24.0919] [SYS] 11:00:24 | You have joined the network.
+[2024/11/30 11:00:24.0923] [SYS] Start listening to new node.
+[2024/11/30 11:00:24.0975] [MSG] Listening: 172.16.30.185:20001
+[2024/11/30 11:00:24.0978] [SYS] Waiting for new node connection...
+[2024/11/30 11:00:24.1584] [SYS] Receive new task (#cc7a84b1eb7694f08131c4a586c64287): "alg" from 127.0.1.1:20000
+[2024/11/30 11:00:24.1628] [MSG] Add user profile: User A (@8f261f3f396e49d78060f6b50dc63371)
+[2024/11/30 11:00:24.1641] [SYS] Close the task (#cc7a84b1eb7694f08131c4a586c64287).
+[2024/11/30 11:00:24.1726] [SYS] Request user list...
+[2024/11/30 11:00:24.1791] [SYS] Send message: "/req-ul #8417d0e9d5b21627dd4e0c5ec373a7fc 4990 MIICIjAN...(736)" to 127.0.1.1:20000
+[2024/11/30 11:00:24.2700] [SYS] Receive replied task (#8417d0e9d5b21627dd4e0c5ec373a7fc): "ret-ul" from 127.0.1.1:20000
+[2024/11/30 11:00:24.2924] [MSG] Update user profile: User A (@8f261f3f396e49d78060f6b50dc63371)
+[2024/11/30 11:00:24.2940] [SYS] Close the task (#8417d0e9d5b21627dd4e0c5ec373a7fc).
+[2024/11/30 11:00:24.2969] [SYS] Send message: "/pst-up #c2f1e2098917bbe9b03eeabb7df83778 4990 @50ab0ac0...(33) @50ab0ac...(779) @8f261f3f...(33) YV3BSULc...(684)" to 127.0.1.1:20000
+[2024/11/30 11:00:24.3955] [SYS] Receive replied task (#c2f1e2098917bbe9b03eeabb7df83778): "rec-up" from 127.0.1.1:20000
+[2024/11/30 11:00:24.3963] [SYS] Close the task (#c2f1e2098917bbe9b03eeabb7df83778).
+[2024/11/30 11:00:25.2340] [SYS] Receive new task (#5f0c840dbeba31bbd8d028c219568f91): "req-ul" from 127.0.1.1:20000
+[2024/11/30 11:00:25.2359] [SYS] Send message: "/ret-ul #5f0c840dbeba31bbd8d028c219568f91 NUL wV4XRI2...(1060) ReeZXuOd...(684)" to 127.0.1.1:20000
+[2024/11/30 11:00:25.2370] [SYS] Close the task (#5f0c840dbeba31bbd8d028c219568f91).
+[2024/11/30 11:00:25.4294] [SYS] Receive new task (#13f49dec4fb4d60e11559d8c103d797b): "pst-up" from 127.0.1.1:20000
+[2024/11/30 11:00:25.4426] [MSG] Add user profile: User C (@07325582b68490506259de2d47ffaa54)
+[2024/11/30 11:00:25.4443] [SYS] 11:00:25 | User C (@07325582b68490506259de2d47ffaa54) has joined the network.
+[2024/11/30 11:00:25.4449] [SYS] Send message: "/rec-up #13f49dec4fb4d60e11559d8c103d797b" to 127.0.1.1:20000
+[2024/11/30 11:00:25.4463] [SYS] Close the task (#13f49dec4fb4d60e11559d8c103d797b).
+[2024/11/30 11:00:26.7313] [SYS] Receive new task (#14ccdd5082632bfeffb3818f2eea11bb): "req-ul" from 127.0.1.1:20000
+[2024/11/30 11:00:26.7335] [SYS] Send message: "/ret-ul #14ccdd5082632bfeffb3818f2eea11bb NUL DO4IAtT...(1060) JkNnFj+Z...(684)" to 127.0.1.1:20000
+[2024/11/30 11:00:26.7346] [SYS] Close the task (#14ccdd5082632bfeffb3818f2eea11bb).
+[2024/11/30 11:00:26.9334] [SYS] Receive new task (#fa24ac50b001ceb1ed224a0b0bafad92): "pst-up" from 127.0.1.1:20000
+[2024/11/30 11:00:26.9463] [MSG] Add user profile: User D (@fe48fe6fc8424a719bebbada2f785994)
+[2024/11/30 11:00:26.9484] [SYS] 11:00:26 | User D (@fe48fe6fc8424a719bebbada2f785994) has joined the network.
+[2024/11/30 11:00:26.9491] [SYS] Send message: "/rec-up #fa24ac50b001ceb1ed224a0b0bafad92" to 127.0.1.1:20000
+[2024/11/30 11:00:26.9508] [SYS] Close the task (#fa24ac50b001ceb1ed224a0b0bafad92).
+[2024/11/30 11:00:27.2059] [SYS] Receive new task (#1f75ff01a1d05006a7b42d850c929b78): "req-ul" from 127.0.1.1:20000
+[2024/11/30 11:00:27.2100] [SYS] Send message: "/ret-ul #1f75ff01a1d05006a7b42d850c929b78 NUL l+spmmN...(1060) QbBoS9O6...(684)" to 127.0.1.1:20000
+[2024/11/30 11:00:27.2135] [SYS] Close the task (#1f75ff01a1d05006a7b42d850c929b78).
+[2024/11/30 11:00:27.3906] [SYS] Receive new task (#48037cc435b2c31f8f3a23f2c268e701): "pst-up" from 127.0.1.1:20000
+[2024/11/30 11:00:27.4035] [MSG] Add user profile: User E (@97d9294b1e02bfc6cef459a7f3e36c9b)
+[2024/11/30 11:00:27.4045] [SYS] 11:00:27 | User E (@97d9294b1e02bfc6cef459a7f3e36c9b) has joined the network.
+[2024/11/30 11:00:27.4053] [SYS] Send message: "/rec-up #48037cc435b2c31f8f3a23f2c268e701" to 127.0.1.1:20000
+[2024/11/30 11:00:27.4071] [SYS] Close the task (#48037cc435b2c31f8f3a23f2c268e701).
+[2024/11/30 11:00:29.0776] [SYS] Receive new task (#4a3569f2f3c673fd9acca77d8dac59c0): "req-ul" from 127.0.1.1:20000
+[2024/11/30 11:00:29.0808] [SYS] Send message: "/ret-ul #4a3569f2f3c673fd9acca77d8dac59c0 NUL KNajeXK...(1060) X4ykhZMK...(684)" to 127.0.1.1:20000
+[2024/11/30 11:00:29.0830] [SYS] Close the task (#4a3569f2f3c673fd9acca77d8dac59c0).
+[2024/11/30 11:00:29.2424] [SYS] Receive new task (#2acbf48a4d498b16eae6e9b1fa325ede): "pst-up" from 127.0.1.1:20000
+[2024/11/30 11:00:29.2545] [MSG] Add user profile: User F (@59dd0259250a238d96e1335bf5f29b58)
+[2024/11/30 11:00:29.2551] [SYS] 11:00:29 | User F (@59dd0259250a238d96e1335bf5f29b58) has joined the network.
+[2024/11/30 11:00:29.2557] [SYS] Send message: "/rec-up #2acbf48a4d498b16eae6e9b1fa325ede" to 127.0.1.1:20000
+[2024/11/30 11:00:29.2567] [SYS] Close the task (#2acbf48a4d498b16eae6e9b1fa325ede).
+[2024/11/30 11:00:35.2914] [SYS] Receive new task (#ab3edcf6977058fc6599067a8eaf44f7): "pst-cm" from 127.0.1.1:20000
+[2024/11/30 11:00:35.2939] [MSG] 11:00:35 | User A (@8f261f3f396e49d78060f6b50dc63371):
+Hi
+[2024/11/30 11:00:35.2952] [SYS] Send message: "/rec-cm #ab3edcf6977058fc6599067a8eaf44f7" to 127.0.1.1:20000
+[2024/11/30 11:00:35.2968] [SYS] Close the task (#ab3edcf6977058fc6599067a8eaf44f7).
+[2024/11/30 11:00:40.0185] [MSG] ▶ /m Hi
+[2024/11/30 11:00:40.0255] [MSG] 11:00:40 | User B (ME):
+Hi
+[2024/11/30 11:00:40.0261] [SYS] Send message: "/pst-cm #d4e87adda67f6a73225690f31c47c26b 4990 @50ab0ac0...(33) SGk= JL4xjF0j...(684)" to 127.0.1.1:20000
+[2024/11/30 11:00:40.1245] [SYS] Receive replied task (#d4e87adda67f6a73225690f31c47c26b): "rec-cm" from 127.0.1.1:20000
+[2024/11/30 11:00:40.1251] [SYS] Close the task (#d4e87adda67f6a73225690f31c47c26b).
+[2024/11/30 11:00:50.5188] [SYS] Receive new task (#49493a34a25689307eff012d7e2b3c1b): "pst-cf" from 127.0.1.1:20000
+[2024/11/30 11:00:50.5216] [MSG] The file (Test File Data (1.1 MiB).jpg) was stocked as #a504536f32d728fb5f87f1eef9b6b1f6 by @8f261f3f396e49d78060f6b50dc63371.
+[2024/11/30 11:00:50.5234] [MSG] 11:00:50 | User A (@8f261f3f396e49d78060f6b50dc63371):
+[Test File Data (1.1 MiB).jpg](/fr @8f261f3f396e49d78060f6b50dc63371 #a504536f32d728fb5f87f1eef9b6b1f6) (Click to set a command to download the file!)
+[2024/11/30 11:00:50.5239] [SYS] Send message: "/rec-cf #49493a34a25689307eff012d7e2b3c1b" to 127.0.1.1:20000
+[2024/11/30 11:00:50.5250] [SYS] Close the task (#49493a34a25689307eff012d7e2b3c1b).
+[2024/11/30 11:01:19.0814] [SYS] Receive new task (#801fc66bc40048650d4300d9d408a9e3): "pst-on" from 127.0.1.1:20000
+[2024/11/30 11:01:19.0920] [SYS] Decode ONN received data:
+- Layer: 1 (Receive)
+- Encrypted common key: 0x62832...[512]
+- Encrypted content: 0x49a...[65016]
+- Decrypted common key: 0x23ba116...[32]
+- Decrypted content: 0x000...[65000]
+[2024/11/30 11:01:19.0998] [SYS] Decode ONN received data:
+- Layer: 2 (Content)
+- Encrypted common key: 0x2082e...[512]
+- Encrypted message: 0x6d8...[59008]
+- Decrypted common key: 0xaecca14...[32]
+- Decrypted message: 0x8df...[58992]
+- Noise: 0x44cc...[5468]
+[2024/11/30 11:01:19.1008] [SYS] Decode ONN received data:
+- Layer: 3 (Message)
+- Message ID: 8dff9617e9d493b0396a6686fdd15fa8
+- Message size: 65536
+- Flag: DUM
+- Type: ff
+- Noise: 0x41908...[3468]
+- Data [0]: 0x00010000
+- Data [1]: 0x03
+- Data [2]: 0xff
+- Data [3]: 0x073...[55494]
+[2024/11/30 11:01:19.1011] [SYS] Decode ONN received data:
+- Layer: 4 (Data)
+- Send user ID: 07325582b68490506259de2d47ffaa54
+- Send user's public key: 0x30820...[550]
+- Encrypted common key: 0x7a704...[512]
+- Encrypted message: 0x57a...[54404]
+[2024/11/30 11:01:19.1016] [MSG] Get ONN data ... ONN#8dff9617e9d493b0396a6686fdd15fa8 (65536 byte / 65536 byte)
+[2024/11/30 11:01:19.1018] [MSG] Your job flag is ... DUM
+[2024/11/30 11:01:19.1032] [SYS] Create ONN send data:
+- Layer: 2 (Content)
+- Next user's common key: 0x7a704...[512]
+- Next user's message: 0x57a...[54404]
+- Noise: 0x58f0...[10072]
+[2024/11/30 11:01:19.1046] [SYS] Create ONN send data:
+- Layer: 1 (Root)
+- Next user's public key: 0x30820...[550]
+- New common key: 0x80d79ad...[32]
+- Encrypted common key: 0x49150...[512]
+- Target content: 0x000...[65000]
+- Encrypted content: 0x709...[65016]
+[2024/11/30 11:01:19.1048] [MSG] Send ONN data to ... User C (@07325582b68490506259de2d47ffaa54)
+[2024/11/30 11:01:19.1125] [SYS] Send message: "/rec-on #801fc66bc40048650d4300d9d408a9e3" to 127.0.1.1:20000
+[2024/11/30 11:01:19.1128] [SYS] Send message: "/pst-on #ff1fa61cc27ba13229450b07f78c7ff6 0x000...[66092]" to 127.0.1.1:20000
+[2024/11/30 11:01:19.1137] [SYS] Close the task (#801fc66bc40048650d4300d9d408a9e3).
+[2024/11/30 11:01:19.2376] [SYS] Receive replied task (#ff1fa61cc27ba13229450b07f78c7ff6): "rec-on" from 127.0.1.1:20000
+[2024/11/30 11:01:19.2382] [SYS] Close the task (#ff1fa61cc27ba13229450b07f78c7ff6).
+[2024/11/30 11:01:19.4178] [SYS] Receive new task (#ead905d4b3def93508e4115a473e5c2f): "pst-on" from 127.0.1.1:20000
+[2024/11/30 11:01:19.4271] [SYS] Decode ONN received data:
+- Layer: 1 (Receive)
+- Encrypted common key: 0x6a97f...[512]
+- Encrypted content: 0x978...[65016]
+- Decrypted common key: 0x32b6839...[32]
+- Decrypted content: 0x000...[65000]
+[2024/11/30 11:01:19.4363] [SYS] Decode ONN received data:
+- Layer: 2 (Content)
+- Encrypted common key: 0x17dfb...[512]
+- Encrypted message: 0x53c9...[22699]
+- Decrypted common key: 0xb597ca8...[32]
+- Decrypted message: 0x8dff...[22683]
+- Noise: 0x13cc...[41777]
+[2024/11/30 11:01:19.4370] [SYS] Decode ONN received data:
+- Layer: 3 (Message)
+- Message ID: 8dff9617e9d493b0396a6686fdd15fa8
+- Message size: 65536
+- Flag: DUM
+- Type: ff
+- Noise: 0x88a80...[3541]
+- Data [0]: 0x00010000
+- Data [1]: 0x03
+- Data [2]: 0xff
+- Data [3]: 0x0732...[19112]
+[2024/11/30 11:01:19.4375] [SYS] Decode ONN received data:
+- Layer: 4 (Data)
+- Send user ID: 07325582b68490506259de2d47ffaa54
+- Send user's public key: 0x30820...[550]
+- Encrypted common key: 0x0b087...[512]
+- Encrypted message: 0x1aba...[18022]
+[2024/11/30 11:01:19.4377] [MSG] Get ONN data ... ONN#8dff9617e9d493b0396a6686fdd15fa8 (65536 byte / 65536 byte)
+[2024/11/30 11:01:19.4378] [MSG] Your job flag is ... DUM
+[2024/11/30 11:01:19.4396] [SYS] Create ONN send data:
+- Layer: 2 (Content)
+- Next user's common key: 0x0b087...[512]
+- Next user's message: 0x1aba...[18022]
+- Noise: 0x0ea7...[46454]
+[2024/11/30 11:01:19.4414] [SYS] Create ONN send data:
+- Layer: 1 (Root)
+- Next user's public key: 0x30820...[550]
+- New common key: 0x1f67740...[32]
+- Encrypted common key: 0x8ca42...[512]
+- Target content: 0x000...[65000]
+- Encrypted content: 0x568...[65016]
+[2024/11/30 11:01:19.4416] [MSG] Send ONN data to ... User C (@07325582b68490506259de2d47ffaa54)
+[2024/11/30 11:01:19.4502] [SYS] Send message: "/rec-on #ead905d4b3def93508e4115a473e5c2f" to 127.0.1.1:20000
+[2024/11/30 11:01:19.4505] [SYS] Send message: "/pst-on #feb0b8702a7e9a00a366b4038846af87 0x000...[66092]" to 127.0.1.1:20000
+[2024/11/30 11:01:19.4513] [SYS] Close the task (#ead905d4b3def93508e4115a473e5c2f).
+[2024/11/30 11:01:19.5592] [SYS] Receive replied task (#feb0b8702a7e9a00a366b4038846af87): "rec-on" from 127.0.1.1:20000
+[2024/11/30 11:01:19.5600] [SYS] Close the task (#feb0b8702a7e9a00a366b4038846af87).
+[2024/11/30 11:01:32.2601] [SYS] Receive new task (#3b25da6c95070f6d85f8090f4f51182f): "pst-on" from 127.0.1.1:20000
+[2024/11/30 11:01:32.2679] [SYS] Decode ONN received data:
+- Layer: 1 (Receive)
+- Encrypted common key: 0x04325...[512]
+- Encrypted content: 0xf77...[65016]
+- Decrypted common key: 0x1bab3a2...[32]
+- Decrypted content: 0x000...[65000]
+[2024/11/30 11:01:32.2750] [SYS] Decode ONN received data:
+- Layer: 2 (Content)
+- Encrypted common key: 0x37a18...[512]
+- Encrypted message: 0x294...[56011]
+- Decrypted common key: 0xbe12d81...[32]
+- Decrypted message: 0x091...[55995]
+- Noise: 0xa877...[8465]
+[2024/11/30 11:01:32.2754] [SYS] Decode ONN received data:
+- Layer: 3 (Message)
+- Message ID: 091c076e76c678802d12e323050cb1e2
+- Message size: 65536
+- Flag: DUM
+- Type: ff
+- Noise: 0xefde...[10645]
+- Data [0]: 0x00010000
+- Data [1]: 0x03
+- Data [2]: 0xff
+- Data [3]: 0x0732...[45320]
+[2024/11/30 11:01:32.2756] [SYS] Decode ONN received data:
+- Layer: 4 (Data)
+- Send user ID: 07325582b68490506259de2d47ffaa54
+- Send user's public key: 0x30820...[550]
+- Encrypted common key: 0x89dfd...[512]
+- Encrypted message: 0x5040...[44230]
+[2024/11/30 11:01:32.2757] [MSG] Get ONN data ... ONN#091c076e76c678802d12e323050cb1e2 (65536 byte / 65536 byte)
+[2024/11/30 11:01:32.2757] [MSG] Your job flag is ... DUM
+[2024/11/30 11:01:32.2764] [SYS] Create ONN send data:
+- Layer: 2 (Content)
+- Next user's common key: 0x89dfd...[512]
+- Next user's message: 0x5040...[44230]
+- Noise: 0x8d09...[20246]
+[2024/11/30 11:01:32.2781] [SYS] Create ONN send data:
+- Layer: 1 (Root)
+- Next user's public key: 0x30820...[550]
+- New common key: 0xc2f9d5b...[32]
+- Encrypted common key: 0x622f5...[512]
+- Target content: 0x000...[65000]
+- Encrypted content: 0x3ed...[65016]
+[2024/11/30 11:01:32.2782] [MSG] Send ONN data to ... User C (@07325582b68490506259de2d47ffaa54)
+[2024/11/30 11:01:32.2861] [SYS] Send message: "/rec-on #3b25da6c95070f6d85f8090f4f51182f" to 127.0.1.1:20000
+[2024/11/30 11:01:32.2863] [SYS] Send message: "/pst-on #09b694e79f1cc61588520419be7e6486 0x000...[66092]" to 127.0.1.1:20000
+[2024/11/30 11:01:32.2870] [SYS] Close the task (#3b25da6c95070f6d85f8090f4f51182f).
+[2024/11/30 11:01:32.3673] [SYS] Receive replied task (#09b694e79f1cc61588520419be7e6486): "rec-on" from 127.0.1.1:20000
+[2024/11/30 11:01:32.3682] [SYS] Close the task (#09b694e79f1cc61588520419be7e6486).
+[2024/11/30 11:01:32.5952] [SYS] Receive new task (#2086a8baf24d31a8785ef10131c13042): "pst-on" from 127.0.1.1:20000
+[2024/11/30 11:01:32.6037] [SYS] Decode ONN received data:
+- Layer: 1 (Receive)
+- Encrypted common key: 0x710f5...[512]
+- Encrypted content: 0xc2d...[65016]
+- Decrypted common key: 0xd45e304...[32]
+- Decrypted content: 0x000...[65000]
+[2024/11/30 11:01:32.6108] [SYS] Decode ONN received data:
+- Layer: 2 (Content)
+- Encrypted common key: 0x51103...[512]
+- Encrypted message: 0xe6b8...[39337]
+- Decrypted common key: 0xf2e3de8...[32]
+- Decrypted message: 0x091c...[39321]
+- Noise: 0xdaa6...[25139]
+[2024/11/30 11:01:32.6111] [SYS] Decode ONN received data:
+- Layer: 3 (Message)
+- Message ID: 091c076e76c678802d12e323050cb1e2
+- Message size: 65536
+- Flag: DUM
+- Type: ff
+- Noise: 0xb9300...[4954]
+- Data [0]: 0x00010000
+- Data [1]: 0x03
+- Data [2]: 0xff
+- Data [3]: 0x0732...[34337]
+[2024/11/30 11:01:32.6113] [SYS] Decode ONN received data:
+- Layer: 4 (Data)
+- Send user ID: 07325582b68490506259de2d47ffaa54
+- Send user's public key: 0x30820...[550]
+- Encrypted common key: 0xa2f78...[512]
+- Encrypted message: 0x9ef8...[33247]
+[2024/11/30 11:01:32.6115] [MSG] Get ONN data ... ONN#091c076e76c678802d12e323050cb1e2 (65536 byte / 65536 byte)
+[2024/11/30 11:01:32.6116] [MSG] Your job flag is ... DUM
+[2024/11/30 11:01:32.6126] [SYS] Create ONN send data:
+- Layer: 2 (Content)
+- Next user's common key: 0xa2f78...[512]
+- Next user's message: 0x9ef8...[33247]
+- Noise: 0x19b5...[31229]
+[2024/11/30 11:01:32.6148] [SYS] Create ONN send data:
+- Layer: 1 (Root)
+- Next user's public key: 0x30820...[550]
+- New common key: 0x0ccde53...[32]
+- Encrypted common key: 0x63ab6...[512]
+- Target content: 0x000...[65000]
+- Encrypted content: 0x690...[65016]
+[2024/11/30 11:01:32.6150] [MSG] Send ONN data to ... User C (@07325582b68490506259de2d47ffaa54)
+[2024/11/30 11:01:32.6233] [SYS] Send message: "/rec-on #2086a8baf24d31a8785ef10131c13042" to 127.0.1.1:20000
+[2024/11/30 11:01:32.6236] [SYS] Send message: "/pst-on #e2c6bcac6014c2dd1a14b50b12e5309f 0x000...[66092]" to 127.0.1.1:20000
+[2024/11/30 11:01:32.6243] [SYS] Close the task (#2086a8baf24d31a8785ef10131c13042).
+[2024/11/30 11:01:32.7434] [SYS] Receive replied task (#e2c6bcac6014c2dd1a14b50b12e5309f): "rec-on" from 127.0.1.1:20000
+[2024/11/30 11:01:32.7441] [SYS] Close the task (#e2c6bcac6014c2dd1a14b50b12e5309f).
+[2024/11/30 11:01:50.7936] [SYS] Receive new task (#bbbae0fc2e3343c32475ea007ce3936b): "pst-on" from 127.0.1.1:20000
+[2024/11/30 11:01:50.8009] [SYS] Decode ONN received data:
+- Layer: 1 (Receive)
+- Encrypted common key: 0x13683...[512]
+- Encrypted content: 0xe0d...[65016]
+- Decrypted common key: 0xe6e90ed...[32]
+- Decrypted content: 0x000...[65000]
+[2024/11/30 11:01:50.8087] [SYS] Decode ONN received data:
+- Layer: 2 (Content)
+- Encrypted common key: 0x2ea40...[512]
+- Encrypted message: 0xba1...[57774]
+- Decrypted common key: 0x0b5c72b...[32]
+- Decrypted message: 0xf06...[57758]
+- Noise: 0x5832...[6702]
+[2024/11/30 11:01:50.8090] [SYS] Decode ONN received data:
+- Layer: 3 (Message)
+- Message ID: f063c055f4b4caf21e7bb63a95870bc1
+- Message size: 65536
+- Flag: DUM
+- Type: ff
+- Noise: 0xa2b1...[17679]
+- Data [0]: 0x00010000
+- Data [1]: 0x03
+- Data [2]: 0xff
+- Data [3]: 0x0732...[40049]
+[2024/11/30 11:01:50.8092] [SYS] Decode ONN received data:
+- Layer: 4 (Data)
+- Send user ID: 07325582b68490506259de2d47ffaa54
+- Send user's public key: 0x30820...[550]
+- Encrypted common key: 0x2e4ad...[512]
+- Encrypted message: 0x50f2...[38959]
+[2024/11/30 11:01:50.8092] [MSG] Get ONN data ... ONN#f063c055f4b4caf21e7bb63a95870bc1 (65536 byte / 65536 byte)
+[2024/11/30 11:01:50.8093] [MSG] Your job flag is ... DUM
+[2024/11/30 11:01:50.8098] [SYS] Create ONN send data:
+- Layer: 2 (Content)
+- Next user's common key: 0x2e4ad...[512]
+- Next user's message: 0x50f2...[38959]
+- Noise: 0x3d4d...[25517]
+[2024/11/30 11:01:50.8109] [SYS] Create ONN send data:
+- Layer: 1 (Root)
+- Next user's public key: 0x30820...[550]
+- New common key: 0xb543965...[32]
+- Encrypted common key: 0x62ee9...[512]
+- Target content: 0x000...[65000]
+- Encrypted content: 0x800...[65016]
+[2024/11/30 11:01:50.8110] [MSG] Send ONN data to ... User C (@07325582b68490506259de2d47ffaa54)
+[2024/11/30 11:01:50.8183] [SYS] Send message: "/rec-on #bbbae0fc2e3343c32475ea007ce3936b" to 127.0.1.1:20000
+[2024/11/30 11:01:50.8185] [SYS] Send message: "/pst-on #2f7c1c3c3980f4c6df1ace85b6408754 0x000...[66092]" to 127.0.1.1:20000
+[2024/11/30 11:01:50.8192] [SYS] Close the task (#bbbae0fc2e3343c32475ea007ce3936b).
+[2024/11/30 11:01:50.9342] [SYS] Receive replied task (#2f7c1c3c3980f4c6df1ace85b6408754): "rec-on" from 127.0.1.1:20000
+[2024/11/30 11:01:50.9346] [SYS] Close the task (#2f7c1c3c3980f4c6df1ace85b6408754).
+[2024/11/30 11:01:51.1724] [SYS] Receive new task (#cb57927a23066839a533facbad8d2b44): "pst-on" from 127.0.1.1:20000
+[2024/11/30 11:01:51.1798] [SYS] Decode ONN received data:
+- Layer: 1 (Receive)
+- Encrypted common key: 0x9dcd7...[512]
+- Encrypted content: 0xff5...[65016]
+- Decrypted common key: 0x50eb775...[32]
+- Decrypted content: 0x000...[65000]
+[2024/11/30 11:01:51.1863] [SYS] Decode ONN received data:
+- Layer: 2 (Content)
+- Encrypted common key: 0x33b1e...[512]
+- Encrypted message: 0xe2f5...[49799]
+- Decrypted common key: 0xe644c8e...[32]
+- Decrypted message: 0xf063...[49783]
+- Noise: 0x8177...[14677]
+[2024/11/30 11:01:51.1867] [SYS] Decode ONN received data:
+- Layer: 3 (Message)
+- Message ID: f063c055f4b4caf21e7bb63a95870bc1
+- Message size: 65536
+- Flag: DUM
+- Type: ff
+- Noise: 0x6ffd...[9417]
+- Data [0]: 0x00010000
+- Data [1]: 0x03
+- Data [2]: 0xff
+- Data [3]: 0x0732...[40336]
+[2024/11/30 11:01:51.1870] [SYS] Decode ONN received data:
+- Layer: 4 (Data)
+- Send user ID: 07325582b68490506259de2d47ffaa54
+- Send user's public key: 0x30820...[550]
+- Encrypted common key: 0x51790...[512]
+- Encrypted message: 0xc365...[39246]
+[2024/11/30 11:01:51.1872] [MSG] Get ONN data ... ONN#f063c055f4b4caf21e7bb63a95870bc1 (65536 byte / 65536 byte)
+[2024/11/30 11:01:51.1872] [MSG] Your job flag is ... DUM
+[2024/11/30 11:01:51.1883] [SYS] Create ONN send data:
+- Layer: 2 (Content)
+- Next user's common key: 0x51790...[512]
+- Next user's message: 0xc365...[39246]
+- Noise: 0x6ea1...[25230]
+[2024/11/30 11:01:51.1896] [SYS] Create ONN send data:
+- Layer: 1 (Root)
+- Next user's public key: 0x30820...[550]
+- New common key: 0xd755cf3...[32]
+- Encrypted common key: 0x80d80...[512]
+- Target content: 0x000...[65000]
+- Encrypted content: 0xe53...[65016]
+[2024/11/30 11:01:51.1898] [MSG] Send ONN data to ... User C (@07325582b68490506259de2d47ffaa54)
+[2024/11/30 11:01:51.1966] [SYS] Send message: "/rec-on #cb57927a23066839a533facbad8d2b44" to 127.0.1.1:20000
+[2024/11/30 11:01:51.1967] [SYS] Send message: "/pst-on #98e1cca70f1292c731531a1fcd54a7f9 0x000...[66092]" to 127.0.1.1:20000
+[2024/11/30 11:01:51.1974] [SYS] Close the task (#cb57927a23066839a533facbad8d2b44).
+[2024/11/30 11:01:51.3170] [SYS] Receive replied task (#98e1cca70f1292c731531a1fcd54a7f9): "rec-on" from 127.0.1.1:20000
+[2024/11/30 11:01:51.3175] [SYS] Close the task (#98e1cca70f1292c731531a1fcd54a7f9).
+[2024/11/30 11:01:51.5794] [SYS] Receive new task (#6ab777504dd78992de7008b3b2dc7972): "pst-on" from 127.0.1.1:20000
+[2024/11/30 11:01:51.5867] [SYS] Decode ONN received data:
+- Layer: 1 (Receive)
+- Encrypted common key: 0x7ca53...[512]
+- Encrypted content: 0x624...[65016]
+- Decrypted common key: 0x58e2c35...[32]
+- Decrypted content: 0x000...[65000]
+[2024/11/30 11:01:51.5940] [SYS] Decode ONN received data:
+- Layer: 2 (Content)
+- Encrypted common key: 0x9ede8...[512]
+- Encrypted message: 0x0618...[49537]
+- Decrypted common key: 0xff76590...[32]
+- Decrypted message: 0xf063...[49521]
+- Noise: 0xe761...[14939]
+[2024/11/30 11:01:51.5942] [SYS] Decode ONN received data:
+- Layer: 3 (Message)
+- Message ID: f063c055f4b4caf21e7bb63a95870bc1
+- Message size: 65536
+- Flag: DUM
+- Type: ff
+- Noise: 0x1db3...[12962]
+- Data [0]: 0x00010000
+- Data [1]: 0x03
+- Data [2]: 0xff
+- Data [3]: 0x0732...[36529]
+[2024/11/30 11:01:51.5944] [SYS] Decode ONN received data:
+- Layer: 4 (Data)
+- Send user ID: 07325582b68490506259de2d47ffaa54
+- Send user's public key: 0x30820...[550]
+- Encrypted common key: 0x28c97...[512]
+- Encrypted message: 0x8989...[35439]
+[2024/11/30 11:01:51.5944] [MSG] Get ONN data ... ONN#f063c055f4b4caf21e7bb63a95870bc1 (65536 byte / 65536 byte)
+[2024/11/30 11:01:51.5945] [MSG] Your job flag is ... DUM
+[2024/11/30 11:01:51.5951] [SYS] Create ONN send data:
+- Layer: 2 (Content)
+- Next user's common key: 0x28c97...[512]
+- Next user's message: 0x8989...[35439]
+- Noise: 0xc44b...[29037]
+[2024/11/30 11:01:51.5962] [SYS] Create ONN send data:
+- Layer: 1 (Root)
+- Next user's public key: 0x30820...[550]
+- New common key: 0x7c8154e...[32]
+- Encrypted common key: 0x48dd3...[512]
+- Target content: 0x000...[65000]
+- Encrypted content: 0xc33...[65016]
+[2024/11/30 11:01:51.5963] [MSG] Send ONN data to ... User C (@07325582b68490506259de2d47ffaa54)
+[2024/11/30 11:01:51.6023] [SYS] Send message: "/rec-on #6ab777504dd78992de7008b3b2dc7972" to 127.0.1.1:20000
+[2024/11/30 11:01:51.6024] [SYS] Send message: "/pst-on #d35963c46e8e958ebcc2bbd43550d221 0x000...[66092]" to 127.0.1.1:20000
+[2024/11/30 11:01:51.6028] [SYS] Close the task (#6ab777504dd78992de7008b3b2dc7972).
+[2024/11/30 11:01:51.7582] [SYS] Receive replied task (#d35963c46e8e958ebcc2bbd43550d221): "rec-on" from 127.0.1.1:20000
+[2024/11/30 11:01:51.7586] [SYS] Close the task (#d35963c46e8e958ebcc2bbd43550d221).
+[2024/11/30 11:01:51.9306] [SYS] Receive new task (#dceef4e07fd138a63277dd29efe66731): "pst-on" from 127.0.1.1:20000
+[2024/11/30 11:01:51.9390] [SYS] Decode ONN received data:
+- Layer: 1 (Receive)
+- Encrypted common key: 0x7769b...[512]
+- Encrypted content: 0x5cb...[65016]
+- Decrypted common key: 0x1d1d3c3...[32]
+- Decrypted content: 0x000...[65000]
+[2024/11/30 11:01:51.9501] [SYS] Decode ONN received data:
+- Layer: 2 (Content)
+- Encrypted common key: 0xb3d17...[512]
+- Encrypted message: 0x1cf...[56242]
+- Decrypted common key: 0xfd9a284...[32]
+- Decrypted message: 0xf06...[56226]
+- Noise: 0xf3ef...[8234]
+[2024/11/30 11:01:51.9508] [SYS] Decode ONN received data:
+- Layer: 3 (Message)
+- Message ID: f063c055f4b4caf21e7bb63a95870bc1
+- Message size: 65536
+- Flag: DUM
+- Type: ff
+- Noise: 0xbd5c...[12400]
+- Data [0]: 0x00010000
+- Data [1]: 0x03
+- Data [2]: 0xff
+- Data [3]: 0x0732...[43796]
+[2024/11/30 11:01:51.9512] [SYS] Decode ONN received data:
+- Layer: 4 (Data)
+- Send user ID: 07325582b68490506259de2d47ffaa54
+- Send user's public key: 0x30820...[550]
+- Encrypted common key: 0x5a30c...[512]
+- Encrypted message: 0x6751...[42706]
+[2024/11/30 11:01:51.9513] [MSG] Get ONN data ... ONN#f063c055f4b4caf21e7bb63a95870bc1 (65536 byte / 65536 byte)
+[2024/11/30 11:01:51.9513] [MSG] Your job flag is ... DUM
+[2024/11/30 11:01:51.9520] [SYS] Create ONN send data:
+- Layer: 2 (Content)
+- Next user's common key: 0x5a30c...[512]
+- Next user's message: 0x6751...[42706]
+- Noise: 0xdcc0...[21770]
+[2024/11/30 11:01:51.9536] [SYS] Create ONN send data:
+- Layer: 1 (Root)
+- Next user's public key: 0x30820...[550]
+- New common key: 0x4309c8f...[32]
+- Encrypted common key: 0xb9560...[512]
+- Target content: 0x000...[65000]
+- Encrypted content: 0xe3a...[65016]
+[2024/11/30 11:01:51.9538] [MSG] Send ONN data to ... User C (@07325582b68490506259de2d47ffaa54)
+[2024/11/30 11:01:51.9625] [SYS] Send message: "/rec-on #dceef4e07fd138a63277dd29efe66731" to 127.0.1.1:20000
+[2024/11/30 11:01:51.9630] [SYS] Send message: "/pst-on #74eedf665ec039395a7a526f67a6cb55 0x000...[66092]" to 127.0.1.1:20000
+[2024/11/30 11:01:51.9639] [SYS] Close the task (#dceef4e07fd138a63277dd29efe66731).
+[2024/11/30 11:01:52.0473] [SYS] Receive replied task (#74eedf665ec039395a7a526f67a6cb55): "rec-on" from 127.0.1.1:20000
+[2024/11/30 11:01:52.0483] [SYS] Close the task (#74eedf665ec039395a7a526f67a6cb55).
+[2024/11/30 11:01:52.2089] [SYS] Receive new task (#0f9da4c27e702e289089274f6dc70868): "pst-on" from 127.0.1.1:20000
+[2024/11/30 11:01:52.2187] [SYS] Decode ONN received data:
+- Layer: 1 (Receive)
+- Encrypted common key: 0xae59a...[512]
+- Encrypted content: 0xe6d...[65016]
+- Decrypted common key: 0x04aeeae...[32]
+- Decrypted content: 0x000...[65000]
+[2024/11/30 11:01:52.2267] [SYS] Decode ONN received data:
+- Layer: 2 (Content)
+- Encrypted common key: 0x52fda...[512]
+- Encrypted message: 0xd886...[49434]
+- Decrypted common key: 0x8ad4149...[32]
+- Decrypted message: 0xf063...[49418]
+- Noise: 0xed68...[15042]
+[2024/11/30 11:01:52.2270] [SYS] Decode ONN received data:
+- Layer: 3 (Message)
+- Message ID: f063c055f4b4caf21e7bb63a95870bc1
+- Message size: 65536
+- Flag: DUM
+- Type: ff
+- Noise: 0x1f87...[11334]
+- Data [0]: 0x00010000
+- Data [1]: 0x03
+- Data [2]: 0xff
+- Data [3]: 0x0732...[38054]
+[2024/11/30 11:01:52.2271] [SYS] Decode ONN received data:
+- Layer: 4 (Data)
+- Send user ID: 07325582b68490506259de2d47ffaa54
+- Send user's public key: 0x30820...[550]
+- Encrypted common key: 0x7ea36...[512]
+- Encrypted message: 0x6807...[36964]
+[2024/11/30 11:01:52.2272] [MSG] Get ONN data ... ONN#f063c055f4b4caf21e7bb63a95870bc1 (65536 byte / 65536 byte)
+[2024/11/30 11:01:52.2272] [MSG] Your job flag is ... DUM
+[2024/11/30 11:01:52.2278] [SYS] Create ONN send data:
+- Layer: 2 (Content)
+- Next user's common key: 0x7ea36...[512]
+- Next user's message: 0x6807...[36964]
+- Noise: 0xff2a...[27512]
+[2024/11/30 11:01:52.2294] [SYS] Create ONN send data:
+- Layer: 1 (Root)
+- Next user's public key: 0x30820...[550]
+- New common key: 0xcd826e6...[32]
+- Encrypted common key: 0xb763f...[512]
+- Target content: 0x000...[65000]
+- Encrypted content: 0x63c...[65016]
+[2024/11/30 11:01:52.2296] [MSG] Send ONN data to ... User C (@07325582b68490506259de2d47ffaa54)
+[2024/11/30 11:01:52.2383] [SYS] Send message: "/rec-on #0f9da4c27e702e289089274f6dc70868" to 127.0.1.1:20000
+[2024/11/30 11:01:52.2386] [SYS] Send message: "/pst-on #3c64ca1a658891ecf7f7b7a8e373e3f5 0x000...[66092]" to 127.0.1.1:20000
+[2024/11/30 11:01:52.2395] [SYS] Close the task (#0f9da4c27e702e289089274f6dc70868).
+[2024/11/30 11:01:52.3686] [SYS] Receive replied task (#3c64ca1a658891ecf7f7b7a8e373e3f5): "rec-on" from 127.0.1.1:20000
+[2024/11/30 11:01:52.3690] [SYS] Close the task (#3c64ca1a658891ecf7f7b7a8e373e3f5).
+[2024/11/30 11:01:52.6233] [SYS] Receive new task (#5285325b231d561aa58b6de42df0cc49): "pst-on" from 127.0.1.1:20000
+[2024/11/30 11:01:52.6307] [SYS] Decode ONN received data:
+- Layer: 1 (Receive)
+- Encrypted common key: 0x3c4d1...[512]
+- Encrypted content: 0xb1b...[65016]
+- Decrypted common key: 0x6b8705e...[32]
+- Decrypted content: 0x000...[65000]
+[2024/11/30 11:01:52.6375] [SYS] Decode ONN received data:
+- Layer: 2 (Content)
+- Encrypted common key: 0x447bb...[512]
+- Encrypted message: 0x3cf...[57621]
+- Decrypted common key: 0xfcb2ec8...[32]
+- Decrypted message: 0xf06...[57605]
+- Noise: 0x695f...[6855]
+[2024/11/30 11:01:52.6380] [SYS] Decode ONN received data:
+- Layer: 3 (Message)
+- Message ID: f063c055f4b4caf21e7bb63a95870bc1
+- Message size: 65536
+- Flag: DUM
+- Type: ff
+- Noise: 0x3d83...[16885]
+- Data [0]: 0x00010000
+- Data [1]: 0x03
+- Data [2]: 0xff
+- Data [3]: 0x0732...[40690]
+[2024/11/30 11:01:52.6381] [SYS] Decode ONN received data:
+- Layer: 4 (Data)
+- Send user ID: 07325582b68490506259de2d47ffaa54
+- Send user's public key: 0x30820...[550]
+- Encrypted common key: 0x627d8...[512]
+- Encrypted message: 0xf0aa...[39600]
+[2024/11/30 11:01:52.6382] [MSG] Get ONN data ... ONN#f063c055f4b4caf21e7bb63a95870bc1 (65536 byte / 65536 byte)
+[2024/11/30 11:01:52.6382] [MSG] Your job flag is ... DUM
+[2024/11/30 11:01:52.6389] [SYS] Create ONN send data:
+- Layer: 2 (Content)
+- Next user's common key: 0x627d8...[512]
+- Next user's message: 0xf0aa...[39600]
+- Noise: 0x252f...[24876]
+[2024/11/30 11:01:52.6404] [SYS] Create ONN send data:
+- Layer: 1 (Root)
+- Next user's public key: 0x30820...[550]
+- New common key: 0xa777f94...[32]
+- Encrypted common key: 0x1ab6c...[512]
+- Target content: 0x000...[65000]
+- Encrypted content: 0x7de...[65016]
+[2024/11/30 11:01:52.6406] [MSG] Send ONN data to ... User C (@07325582b68490506259de2d47ffaa54)
+[2024/11/30 11:01:52.6479] [SYS] Send message: "/pst-on #68cbb336fe266dbd6843600b3e3a97b4 0x000...[66092]" to 127.0.1.1:20000
+[2024/11/30 11:01:52.6481] [SYS] Send message: "/rec-on #5285325b231d561aa58b6de42df0cc49" to 127.0.1.1:20000
+[2024/11/30 11:01:52.6487] [SYS] Close the task (#5285325b231d561aa58b6de42df0cc49).
+[2024/11/30 11:01:52.7313] [SYS] Receive replied task (#68cbb336fe266dbd6843600b3e3a97b4): "rec-on" from 127.0.1.1:20000
+[2024/11/30 11:01:52.7318] [SYS] Close the task (#68cbb336fe266dbd6843600b3e3a97b4).
+[2024/11/30 11:01:52.9340] [SYS] Receive new task (#cb5f8a402b908076c4def6bcd0c7524e): "pst-on" from 127.0.1.1:20000
+[2024/11/30 11:01:52.9427] [SYS] Decode ONN received data:
+- Layer: 1 (Receive)
+- Encrypted common key: 0xb386d...[512]
+- Encrypted content: 0xc8e...[65016]
+- Decrypted common key: 0xc7c3a6b...[32]
+- Decrypted content: 0x000...[65000]
+[2024/11/30 11:01:52.9513] [SYS] Decode ONN received data:
+- Layer: 2 (Content)
+- Encrypted common key: 0x7cc3b...[512]
+- Encrypted message: 0x7f6...[54966]
+- Decrypted common key: 0x6be574d...[32]
+- Decrypted message: 0xf06...[54950]
+- Noise: 0x058c...[9510]
+[2024/11/30 11:01:52.9520] [SYS] Decode ONN received data:
+- Layer: 3 (Message)
+- Message ID: f063c055f4b4caf21e7bb63a95870bc1
+- Message size: 65536
+- Flag: DUM
+- Type: ff
+- Noise: 0x0290...[14591]
+- Data [0]: 0x00010000
+- Data [1]: 0x03
+- Data [2]: 0xff
+- Data [3]: 0x0732...[40329]
+[2024/11/30 11:01:52.9570] [SYS] Decode ONN received data:
+- Layer: 4 (Data)
+- Send user ID: 07325582b68490506259de2d47ffaa54
+- Send user's public key: 0x30820...[550]
+- Encrypted common key: 0x4bd19...[512]
+- Encrypted message: 0x2ed7...[39239]
+[2024/11/30 11:01:52.9573] [MSG] Get ONN data ... ONN#f063c055f4b4caf21e7bb63a95870bc1 (65536 byte / 65536 byte)
+[2024/11/30 11:01:52.9574] [MSG] Your job flag is ... DUM
+[2024/11/30 11:01:52.9582] [SYS] Create ONN send data:
+- Layer: 2 (Content)
+- Next user's common key: 0x4bd19...[512]
+- Next user's message: 0x2ed7...[39239]
+- Noise: 0xf662...[25237]
+[2024/11/30 11:01:52.9601] [SYS] Create ONN send data:
+- Layer: 1 (Root)
+- Next user's public key: 0x30820...[550]
+- New common key: 0xc26eeba...[32]
+- Encrypted common key: 0x4443c...[512]
+- Target content: 0x000...[65000]
+- Encrypted content: 0x902...[65016]
+[2024/11/30 11:01:52.9633] [MSG] Send ONN data to ... User C (@07325582b68490506259de2d47ffaa54)
+[2024/11/30 11:01:52.9723] [SYS] Send message: "/rec-on #cb5f8a402b908076c4def6bcd0c7524e" to 127.0.1.1:20000
+[2024/11/30 11:01:52.9728] [SYS] Send message: "/pst-on #71821d9b9bd1bfca2558f11155aecfe2 0x000...[66092]" to 127.0.1.1:20000
+[2024/11/30 11:01:52.9739] [SYS] Close the task (#cb5f8a402b908076c4def6bcd0c7524e).
+[2024/11/30 11:01:53.0134] [SYS] Receive replied task (#71821d9b9bd1bfca2558f11155aecfe2): "rec-on" from 127.0.1.1:20000
+[2024/11/30 11:01:53.0142] [SYS] Close the task (#71821d9b9bd1bfca2558f11155aecfe2).
+[2024/11/30 11:01:53.1939] [SYS] Receive new task (#0c3116b6278ad0449b95d6b9e38d1b72): "pst-on" from 127.0.1.1:20000
+[2024/11/30 11:01:53.2019] [SYS] Decode ONN received data:
+- Layer: 1 (Receive)
+- Encrypted common key: 0x264a2...[512]
+- Encrypted content: 0x782...[65016]
+- Decrypted common key: 0x4fc6539...[32]
+- Decrypted content: 0x000...[65000]
+[2024/11/30 11:01:53.2091] [SYS] Decode ONN received data:
+- Layer: 2 (Content)
+- Encrypted common key: 0x9d37d...[512]
+- Encrypted message: 0x8243...[47531]
+- Decrypted common key: 0x91a1677...[32]
+- Decrypted message: 0xf063...[47515]
+- Noise: 0xcb1c...[16945]
+[2024/11/30 11:01:53.2096] [SYS] Decode ONN received data:
+- Layer: 3 (Message)
+- Message ID: f063c055f4b4caf21e7bb63a95870bc1
+- Message size: 65536
+- Flag: DUM
+- Type: ff
+- Noise: 0x1e5c...[8868]
+- Data [0]: 0x00010000
+- Data [1]: 0x03
+- Data [2]: 0xff
+- Data [3]: 0x0732...[38617]
+[2024/11/30 11:01:53.2099] [SYS] Decode ONN received data:
+- Layer: 4 (Data)
+- Send user ID: 07325582b68490506259de2d47ffaa54
+- Send user's public key: 0x30820...[550]
+- Encrypted common key: 0x02b89...[512]
+- Encrypted message: 0x7e6a...[37527]
+[2024/11/30 11:01:53.2100] [MSG] Get ONN data ... ONN#f063c055f4b4caf21e7bb63a95870bc1 (65536 byte / 65536 byte)
+[2024/11/30 11:01:53.2100] [MSG] Your job flag is ... DUM
+[2024/11/30 11:01:53.2106] [SYS] Create ONN send data:
+- Layer: 2 (Content)
+- Next user's common key: 0x02b89...[512]
+- Next user's message: 0x7e6a...[37527]
+- Noise: 0xa407...[26949]
+[2024/11/30 11:01:53.2122] [SYS] Create ONN send data:
+- Layer: 1 (Root)
+- Next user's public key: 0x30820...[550]
+- New common key: 0x59f356c...[32]
+- Encrypted common key: 0x6ecfa...[512]
+- Target content: 0x000...[65000]
+- Encrypted content: 0x475...[65016]
+[2024/11/30 11:01:53.2123] [MSG] Send ONN data to ... User C (@07325582b68490506259de2d47ffaa54)
+[2024/11/30 11:01:53.2217] [SYS] Send message: "/rec-on #0c3116b6278ad0449b95d6b9e38d1b72" to 127.0.1.1:20000
+[2024/11/30 11:01:53.2218] [SYS] Send message: "/pst-on #c7ae1efe0017533b5ffba47050352427 0x000...[66092]" to 127.0.1.1:20000
+[2024/11/30 11:01:53.2228] [SYS] Close the task (#0c3116b6278ad0449b95d6b9e38d1b72).
+[2024/11/30 11:01:53.3434] [SYS] Receive replied task (#c7ae1efe0017533b5ffba47050352427): "rec-on" from 127.0.1.1:20000
+[2024/11/30 11:01:53.3439] [SYS] Close the task (#c7ae1efe0017533b5ffba47050352427).
+[2024/11/30 11:01:53.4910] [SYS] Receive new task (#393e468fd67306d8b3f2375555912fb2): "pst-on" from 127.0.1.1:20000
+[2024/11/30 11:01:53.5049] [SYS] Decode ONN received data:
+- Layer: 1 (Receive)
+- Encrypted common key: 0xa2936...[512]
+- Encrypted content: 0x4be...[65016]
+- Decrypted common key: 0x760e7c9...[32]
+- Decrypted content: 0x000...[65000]
+[2024/11/30 11:01:53.5180] [SYS] Decode ONN received data:
+- Layer: 2 (Content)
+- Encrypted common key: 0x868a9...[512]
+- Encrypted message: 0xb85...[55222]
+- Decrypted common key: 0x660f916...[32]
+- Decrypted message: 0xf06...[55206]
+- Noise: 0xd6c5...[9254]
+[2024/11/30 11:01:53.5191] [SYS] Decode ONN received data:
+- Layer: 3 (Message)
+- Message ID: f063c055f4b4caf21e7bb63a95870bc1
+- Message size: 65536
+- Flag: DUM
+- Type: ff
+- Noise: 0x9ca3...[11728]
+- Data [0]: 0x00010000
+- Data [1]: 0x03
+- Data [2]: 0xff
+- Data [3]: 0x0732...[43448]
+[2024/11/30 11:01:53.5198] [SYS] Decode ONN received data:
+- Layer: 4 (Data)
+- Send user ID: 07325582b68490506259de2d47ffaa54
+- Send user's public key: 0x30820...[550]
+- Encrypted common key: 0x73b8b...[512]
+- Encrypted message: 0x0072...[42358]
+[2024/11/30 11:01:53.5200] [MSG] Get ONN data ... ONN#f063c055f4b4caf21e7bb63a95870bc1 (65536 byte / 65536 byte)
+[2024/11/30 11:01:53.5203] [MSG] Your job flag is ... DUM
+[2024/11/30 11:01:53.5219] [SYS] Create ONN send data:
+- Layer: 2 (Content)
+- Next user's common key: 0x73b8b...[512]
+- Next user's message: 0x0072...[42358]
+- Noise: 0x5633...[22118]
+[2024/11/30 11:01:53.5243] [SYS] Create ONN send data:
+- Layer: 1 (Root)
+- Next user's public key: 0x30820...[550]
+- New common key: 0x5f8896d...[32]
+- Encrypted common key: 0x6e848...[512]
+- Target content: 0x000...[65000]
+- Encrypted content: 0x395...[65016]
+[2024/11/30 11:01:53.5245] [MSG] Send ONN data to ... User C (@07325582b68490506259de2d47ffaa54)
+[2024/11/30 11:01:53.5320] [SYS] Send message: "/pst-on #6dd574a4b5c6c47c2e4d4617de31ad3a 0x000...[66092]" to 127.0.1.1:20000
+[2024/11/30 11:01:53.5322] [SYS] Send message: "/rec-on #393e468fd67306d8b3f2375555912fb2" to 127.0.1.1:20000
+[2024/11/30 11:01:53.5332] [SYS] Close the task (#393e468fd67306d8b3f2375555912fb2).
+[2024/11/30 11:01:53.6076] [SYS] Receive replied task (#6dd574a4b5c6c47c2e4d4617de31ad3a): "rec-on" from 127.0.1.1:20000
+[2024/11/30 11:01:53.6080] [SYS] Close the task (#6dd574a4b5c6c47c2e4d4617de31ad3a).
+[2024/11/30 11:01:53.8704] [SYS] Receive new task (#fa19984d4d0f60db5e55ca3443b77343): "pst-on" from 127.0.1.1:20000
+[2024/11/30 11:01:53.8785] [SYS] Decode ONN received data:
+- Layer: 1 (Receive)
+- Encrypted common key: 0x7317d...[512]
+- Encrypted content: 0x8c2...[65016]
+- Decrypted common key: 0xd0baef1...[32]
+- Decrypted content: 0x000...[65000]
+[2024/11/30 11:01:53.8866] [SYS] Decode ONN received data:
+- Layer: 2 (Content)
+- Encrypted common key: 0x0d6c7...[512]
+- Encrypted message: 0x1746...[47644]
+- Decrypted common key: 0x6457284...[32]
+- Decrypted message: 0xf063...[47628]
+- Noise: 0x2099...[16832]
+[2024/11/30 11:01:53.8868] [SYS] Decode ONN received data:
+- Layer: 3 (Message)
+- Message ID: f063c055f4b4caf21e7bb63a95870bc1
+- Message size: 65536
+- Flag: DUM
+- Type: ff
+- Noise: 0x7477...[7183]
+- Data [0]: 0x00010000
+- Data [1]: 0x03
+- Data [2]: 0xff
+- Data [3]: 0x0732...[40415]
+[2024/11/30 11:01:53.8870] [SYS] Decode ONN received data:
+- Layer: 4 (Data)
+- Send user ID: 07325582b68490506259de2d47ffaa54
+- Send user's public key: 0x30820...[550]
+- Encrypted common key: 0x45a7d...[512]
+- Encrypted message: 0xd9e7...[39325]
+[2024/11/30 11:01:53.8870] [MSG] Get ONN data ... ONN#f063c055f4b4caf21e7bb63a95870bc1 (65536 byte / 65536 byte)
+[2024/11/30 11:01:53.8870] [MSG] Your job flag is ... DUM
+[2024/11/30 11:01:53.8876] [SYS] Create ONN send data:
+- Layer: 2 (Content)
+- Next user's common key: 0x45a7d...[512]
+- Next user's message: 0xd9e7...[39325]
+- Noise: 0xd4b0...[25151]
+[2024/11/30 11:01:53.8891] [SYS] Create ONN send data:
+- Layer: 1 (Root)
+- Next user's public key: 0x30820...[550]
+- New common key: 0x92e5f02...[32]
+- Encrypted common key: 0xb8af4...[512]
+- Target content: 0x000...[65000]
+- Encrypted content: 0x448...[65016]
+[2024/11/30 11:01:53.8892] [MSG] Send ONN data to ... User C (@07325582b68490506259de2d47ffaa54)
+[2024/11/30 11:01:53.9009] [SYS] Send message: "/pst-on #872a2e017aafb505f35abf0e34e8d0bb 0x000...[66092]" to 127.0.1.1:20000
+[2024/11/30 11:01:53.9014] [SYS] Send message: "/rec-on #fa19984d4d0f60db5e55ca3443b77343" to 127.0.1.1:20000
+[2024/11/30 11:01:53.9025] [SYS] Close the task (#fa19984d4d0f60db5e55ca3443b77343).
+[2024/11/30 11:01:54.0209] [SYS] Receive replied task (#872a2e017aafb505f35abf0e34e8d0bb): "rec-on" from 127.0.1.1:20000
+[2024/11/30 11:01:54.0212] [SYS] Close the task (#872a2e017aafb505f35abf0e34e8d0bb).
+[2024/11/30 11:01:54.2439] [SYS] Receive new task (#826f5bbd4c2a99fdc16d564cc92864ac): "pst-on" from 127.0.1.1:20000
+[2024/11/30 11:01:54.2522] [SYS] Decode ONN received data:
+- Layer: 1 (Receive)
+- Encrypted common key: 0x1cbd3...[512]
+- Encrypted content: 0xddc...[65016]
+- Decrypted common key: 0xa3a41f8...[32]
+- Decrypted content: 0x000...[65000]
+[2024/11/30 11:01:54.2599] [SYS] Decode ONN received data:
+- Layer: 2 (Content)
+- Encrypted common key: 0x30453...[512]
+- Encrypted message: 0x4e4...[55549]
+- Decrypted common key: 0x0d39505...[32]
+- Decrypted message: 0xf06...[55533]
+- Noise: 0x9e56...[8927]
+[2024/11/30 11:01:54.2602] [SYS] Decode ONN received data:
+- Layer: 3 (Message)
+- Message ID: f063c055f4b4caf21e7bb63a95870bc1
+- Message size: 65536
+- Flag: DUM
+- Type: ff
+- Noise: 0xd6b8...[14864]
+- Data [0]: 0x00010000
+- Data [1]: 0x03
+- Data [2]: 0xff
+- Data [3]: 0x0732...[40639]
+[2024/11/30 11:01:54.2602] [SYS] Decode ONN received data:
+- Layer: 4 (Data)
+- Send user ID: 07325582b68490506259de2d47ffaa54
+- Send user's public key: 0x30820...[550]
+- Encrypted common key: 0x29e6d...[512]
+- Encrypted message: 0x7e95...[39549]
+[2024/11/30 11:01:54.2603] [MSG] Get ONN data ... ONN#f063c055f4b4caf21e7bb63a95870bc1 (65536 byte / 65536 byte)
+[2024/11/30 11:01:54.2603] [MSG] Your job flag is ... DUM
+[2024/11/30 11:01:54.2609] [SYS] Create ONN send data:
+- Layer: 2 (Content)
+- Next user's common key: 0x29e6d...[512]
+- Next user's message: 0x7e95...[39549]
+- Noise: 0x406d...[24927]
+[2024/11/30 11:01:54.2626] [SYS] Create ONN send data:
+- Layer: 1 (Root)
+- Next user's public key: 0x30820...[550]
+- New common key: 0x3bf1973...[32]
+- Encrypted common key: 0x35887...[512]
+- Target content: 0x000...[65000]
+- Encrypted content: 0x51c...[65016]
+[2024/11/30 11:01:54.2627] [MSG] Send ONN data to ... User C (@07325582b68490506259de2d47ffaa54)
+[2024/11/30 11:01:54.2714] [SYS] Send message: "/rec-on #826f5bbd4c2a99fdc16d564cc92864ac" to 127.0.1.1:20000
+[2024/11/30 11:01:54.2719] [SYS] Send message: "/pst-on #74b6fd21b7c19793a8b2d5d30f8c5331 0x000...[66092]" to 127.0.1.1:20000
+[2024/11/30 11:01:54.2731] [SYS] Close the task (#826f5bbd4c2a99fdc16d564cc92864ac).
+[2024/11/30 11:01:54.3902] [SYS] Receive replied task (#74b6fd21b7c19793a8b2d5d30f8c5331): "rec-on" from 127.0.1.1:20000
+[2024/11/30 11:01:54.3909] [SYS] Close the task (#74b6fd21b7c19793a8b2d5d30f8c5331).
+[2024/11/30 11:01:54.5327] [SYS] Receive new task (#f2e0e5879bf58f5424e5d754f8a61311): "pst-on" from 127.0.1.1:20000
+[2024/11/30 11:01:54.5411] [SYS] Decode ONN received data:
+- Layer: 1 (Receive)
+- Encrypted common key: 0x5ec1e...[512]
+- Encrypted content: 0x37e...[65016]
+- Decrypted common key: 0x88045d3...[32]
+- Decrypted content: 0x000...[65000]
+[2024/11/30 11:01:54.5492] [SYS] Decode ONN received data:
+- Layer: 2 (Content)
+- Encrypted common key: 0x1aa49...[512]
+- Encrypted message: 0xbec...[56966]
+- Decrypted common key: 0xe1adf96...[32]
+- Decrypted message: 0xf06...[56950]
+- Noise: 0x208a...[7510]
+[2024/11/30 11:01:54.5497] [SYS] Decode ONN received data:
+- Layer: 3 (Message)
+- Message ID: f063c055f4b4caf21e7bb63a95870bc1
+- Message size: 65536
+- Flag: DUM
+- Type: ff
+- Noise: 0x6a16...[16754]
+- Data [0]: 0x00010000
+- Data [1]: 0x03
+- Data [2]: 0xff
+- Data [3]: 0x0732...[40166]
+[2024/11/30 11:01:54.5498] [SYS] Decode ONN received data:
+- Layer: 4 (Data)
+- Send user ID: 07325582b68490506259de2d47ffaa54
+- Send user's public key: 0x30820...[550]
+- Encrypted common key: 0x8855a...[512]
+- Encrypted message: 0xdd53...[39076]
+[2024/11/30 11:01:54.5499] [MSG] Get ONN data ... ONN#f063c055f4b4caf21e7bb63a95870bc1 (65536 byte / 65536 byte)
+[2024/11/30 11:01:54.5499] [MSG] Your job flag is ... DUM
+[2024/11/30 11:01:54.5505] [SYS] Create ONN send data:
+- Layer: 2 (Content)
+- Next user's common key: 0x8855a...[512]
+- Next user's message: 0xdd53...[39076]
+- Noise: 0x1639...[25400]
+[2024/11/30 11:01:54.5518] [SYS] Create ONN send data:
+- Layer: 1 (Root)
+- Next user's public key: 0x30820...[550]
+- New common key: 0xd301139...[32]
+- Encrypted common key: 0x829d8...[512]
+- Target content: 0x000...[65000]
+- Encrypted content: 0x13b...[65016]
+[2024/11/30 11:01:54.5519] [MSG] Send ONN data to ... User C (@07325582b68490506259de2d47ffaa54)
+[2024/11/30 11:01:54.5602] [SYS] Send message: "/rec-on #f2e0e5879bf58f5424e5d754f8a61311" to 127.0.1.1:20000
+[2024/11/30 11:01:54.5603] [SYS] Send message: "/pst-on #b8e9bdc5bfd868b01b08238ba1bab222 0x000...[66092]" to 127.0.1.1:20000
+[2024/11/30 11:01:54.5610] [SYS] Close the task (#f2e0e5879bf58f5424e5d754f8a61311).
+[2024/11/30 11:01:54.6786] [SYS] Receive replied task (#b8e9bdc5bfd868b01b08238ba1bab222): "rec-on" from 127.0.1.1:20000
+[2024/11/30 11:01:54.6789] [SYS] Close the task (#b8e9bdc5bfd868b01b08238ba1bab222).
+[2024/11/30 11:01:54.9350] [SYS] Receive new task (#cff5e2a2bf0f8aa1c17ed23c91e504c5): "pst-on" from 127.0.1.1:20000
+[2024/11/30 11:01:54.9428] [SYS] Decode ONN received data:
+- Layer: 1 (Receive)
+- Encrypted common key: 0x675d1...[512]
+- Encrypted content: 0x126...[65016]
+- Decrypted common key: 0xa827b6d...[32]
+- Decrypted content: 0x000...[65000]
+[2024/11/30 11:01:54.9498] [SYS] Decode ONN received data:
+- Layer: 2 (Content)
+- Encrypted common key: 0x441c0...[512]
+- Encrypted message: 0xae6...[50149]
+- Decrypted common key: 0x1364e9b...[32]
+- Decrypted message: 0xf06...[50133]
+- Noise: 0xb76c...[14327]
+[2024/11/30 11:01:54.9502] [SYS] Decode ONN received data:
+- Layer: 3 (Message)
+- Message ID: f063c055f4b4caf21e7bb63a95870bc1
+- Message size: 65536
+- Flag: DUM
+- Type: ff
+- Noise: 0x59a0f...[4754]
+- Data [0]: 0x00010000
+- Data [1]: 0x03
+- Data [2]: 0xff
+- Data [3]: 0x0732...[45349]
+[2024/11/30 11:01:54.9503] [SYS] Decode ONN received data:
+- Layer: 4 (Data)
+- Send user ID: 07325582b68490506259de2d47ffaa54
+- Send user's public key: 0x30820...[550]
+- Encrypted common key: 0xac892...[512]
+- Encrypted message: 0x3a35...[44259]
+[2024/11/30 11:01:54.9503] [MSG] Get ONN data ... ONN#f063c055f4b4caf21e7bb63a95870bc1 (65536 byte / 65536 byte)
+[2024/11/30 11:01:54.9503] [MSG] Your job flag is ... DUM
+[2024/11/30 11:01:54.9509] [SYS] Create ONN send data:
+- Layer: 2 (Content)
+- Next user's common key: 0xac892...[512]
+- Next user's message: 0x3a35...[44259]
+- Noise: 0x664a...[20217]
+[2024/11/30 11:01:54.9521] [SYS] Create ONN send data:
+- Layer: 1 (Root)
+- Next user's public key: 0x30820...[550]
+- New common key: 0x8067de7...[32]
+- Encrypted common key: 0x5b805...[512]
+- Target content: 0x000...[65000]
+- Encrypted content: 0x385...[65016]
+[2024/11/30 11:01:54.9522] [MSG] Send ONN data to ... User C (@07325582b68490506259de2d47ffaa54)
+[2024/11/30 11:01:54.9593] [SYS] Send message: "/pst-on #1e1502ee37d3cb9026dd7bb39aab6e47 0x000...[66092]" to 127.0.1.1:20000
+[2024/11/30 11:01:54.9595] [SYS] Send message: "/rec-on #cff5e2a2bf0f8aa1c17ed23c91e504c5" to 127.0.1.1:20000
+[2024/11/30 11:01:54.9609] [SYS] Close the task (#cff5e2a2bf0f8aa1c17ed23c91e504c5).
+[2024/11/30 11:01:55.1177] [SYS] Receive replied task (#1e1502ee37d3cb9026dd7bb39aab6e47): "rec-on" from 127.0.1.1:20000
+[2024/11/30 11:01:55.1182] [SYS] Close the task (#1e1502ee37d3cb9026dd7bb39aab6e47).
+[2024/11/30 11:01:55.3204] [SYS] Receive new task (#b307184d13dab0f16a5482c0220790c3): "pst-on" from 127.0.1.1:20000
+[2024/11/30 11:01:55.3277] [SYS] Decode ONN received data:
+- Layer: 1 (Receive)
+- Encrypted common key: 0x50522...[512]
+- Encrypted content: 0x43c...[65016]
+- Decrypted common key: 0x41aa223...[32]
+- Decrypted content: 0x000...[65000]
+[2024/11/30 11:01:55.3355] [SYS] Decode ONN received data:
+- Layer: 2 (Content)
+- Encrypted common key: 0x953ca...[512]
+- Encrypted message: 0xade...[56113]
+- Decrypted common key: 0x03f0e27...[32]
+- Decrypted message: 0xf06...[56097]
+- Noise: 0x909a...[8363]
+[2024/11/30 11:01:55.3359] [SYS] Decode ONN received data:
+- Layer: 3 (Message)
+- Message ID: f063c055f4b4caf21e7bb63a95870bc1
+- Message size: 65536
+- Flag: DUM
+- Type: ff
+- Noise: 0x1dfb...[15831]
+- Data [0]: 0x00010000
+- Data [1]: 0x03
+- Data [2]: 0xff
+- Data [3]: 0x0732...[40236]
+[2024/11/30 11:01:55.3361] [SYS] Decode ONN received data:
+- Layer: 4 (Data)
+- Send user ID: 07325582b68490506259de2d47ffaa54
+- Send user's public key: 0x30820...[550]
+- Encrypted common key: 0x575e2...[512]
+- Encrypted message: 0xb7c6...[39146]
+[2024/11/30 11:01:55.3362] [MSG] Get ONN data ... ONN#f063c055f4b4caf21e7bb63a95870bc1 (65536 byte / 65536 byte)
+[2024/11/30 11:01:55.3362] [MSG] Your job flag is ... DUM
+[2024/11/30 11:01:55.3369] [SYS] Create ONN send data:
+- Layer: 2 (Content)
+- Next user's common key: 0x575e2...[512]
+- Next user's message: 0xb7c6...[39146]
+- Noise: 0xa1f1...[25330]
+[2024/11/30 11:01:55.3383] [SYS] Create ONN send data:
+- Layer: 1 (Root)
+- Next user's public key: 0x30820...[550]
+- New common key: 0x66b0e36...[32]
+- Encrypted common key: 0xa31f0...[512]
+- Target content: 0x000...[65000]
+- Encrypted content: 0x296...[65016]
+[2024/11/30 11:01:55.3384] [MSG] Send ONN data to ... User C (@07325582b68490506259de2d47ffaa54)
+[2024/11/30 11:01:55.3455] [SYS] Send message: "/pst-on #f0d58203c8bb17d0b89a0867b7216e38 0x000...[66092]" to 127.0.1.1:20000
+[2024/11/30 11:01:55.3456] [SYS] Send message: "/rec-on #b307184d13dab0f16a5482c0220790c3" to 127.0.1.1:20000
+[2024/11/30 11:01:55.3465] [SYS] Close the task (#b307184d13dab0f16a5482c0220790c3).
+[2024/11/30 11:01:55.4188] [SYS] Receive replied task (#f0d58203c8bb17d0b89a0867b7216e38): "rec-on" from 127.0.1.1:20000
+[2024/11/30 11:01:55.4195] [SYS] Close the task (#f0d58203c8bb17d0b89a0867b7216e38).
+[2024/11/30 11:01:55.7051] [SYS] Receive new task (#350f1030bb3e274e02976148d8861a15): "pst-on" from 127.0.1.1:20000
+[2024/11/30 11:01:55.7178] [SYS] Decode ONN received data:
+- Layer: 1 (Receive)
+- Encrypted common key: 0x16286...[512]
+- Encrypted content: 0x546...[65016]
+- Decrypted common key: 0x91bd544...[32]
+- Decrypted content: 0x000...[65000]
+[2024/11/30 11:01:55.7253] [SYS] Decode ONN received data:
+- Layer: 2 (Content)
+- Encrypted common key: 0xb20e8...[512]
+- Encrypted message: 0x5016...[47290]
+- Decrypted common key: 0x700ca4e...[32]
+- Decrypted message: 0xf063...[47274]
+- Noise: 0xfa56...[17186]
+[2024/11/30 11:01:55.7255] [SYS] Decode ONN received data:
+- Layer: 3 (Message)
+- Message ID: f063c055f4b4caf21e7bb63a95870bc1
+- Message size: 65536
+- Flag: DUM
+- Type: ff
+- Noise: 0x9e00...[8793]
+- Data [0]: 0x00010000
+- Data [1]: 0x03
+- Data [2]: 0xff
+- Data [3]: 0x0732...[38451]
+[2024/11/30 11:01:55.7256] [SYS] Decode ONN received data:
+- Layer: 4 (Data)
+- Send user ID: 07325582b68490506259de2d47ffaa54
+- Send user's public key: 0x30820...[550]
+- Encrypted common key: 0xa694e...[512]
+- Encrypted message: 0xdf08...[37361]
+[2024/11/30 11:01:55.7257] [MSG] Get ONN data ... ONN#f063c055f4b4caf21e7bb63a95870bc1 (65536 byte / 65536 byte)
+[2024/11/30 11:01:55.7257] [MSG] Your job flag is ... DUM
+[2024/11/30 11:01:55.7263] [SYS] Create ONN send data:
+- Layer: 2 (Content)
+- Next user's common key: 0xa694e...[512]
+- Next user's message: 0xdf08...[37361]
+- Noise: 0xc059...[27115]
+[2024/11/30 11:01:55.7276] [SYS] Create ONN send data:
+- Layer: 1 (Root)
+- Next user's public key: 0x30820...[550]
+- New common key: 0xd0266ee...[32]
+- Encrypted common key: 0xa5cce...[512]
+- Target content: 0x000...[65000]
+- Encrypted content: 0x23b...[65016]
+[2024/11/30 11:01:55.7277] [MSG] Send ONN data to ... User C (@07325582b68490506259de2d47ffaa54)
+[2024/11/30 11:01:55.7354] [SYS] Send message: "/rec-on #350f1030bb3e274e02976148d8861a15" to 127.0.1.1:20000
+[2024/11/30 11:01:55.7357] [SYS] Send message: "/pst-on #d94729084cd1668c2214fe516a6f5e2e 0x000...[66092]" to 127.0.1.1:20000
+[2024/11/30 11:01:55.7367] [SYS] Close the task (#350f1030bb3e274e02976148d8861a15).
+[2024/11/30 11:01:55.8511] [SYS] Receive replied task (#d94729084cd1668c2214fe516a6f5e2e): "rec-on" from 127.0.1.1:20000
+[2024/11/30 11:01:55.8514] [SYS] Close the task (#d94729084cd1668c2214fe516a6f5e2e).
+[2024/11/30 11:01:56.0713] [SYS] Receive new task (#b16d28f275771a15999b405637aeb8a4): "pst-on" from 127.0.1.1:20000
+[2024/11/30 11:01:56.0798] [SYS] Decode ONN received data:
+- Layer: 1 (Receive)
+- Encrypted common key: 0x1b442...[512]
+- Encrypted content: 0x6df...[65016]
+- Decrypted common key: 0xb525987...[32]
+- Decrypted content: 0x000...[65000]
+[2024/11/30 11:01:56.0865] [SYS] Decode ONN received data:
+- Layer: 2 (Content)
+- Encrypted common key: 0x8b757...[512]
+- Encrypted message: 0xd2f...[53917]
+- Decrypted common key: 0xc2233c8...[32]
+- Decrypted message: 0xf06...[53901]
+- Noise: 0x5159...[10559]
+[2024/11/30 11:01:56.0868] [SYS] Decode ONN received data:
+- Layer: 3 (Message)
+- Message ID: f063c055f4b4caf21e7bb63a95870bc1
+- Message size: 65536
+- Flag: DUM
+- Type: ff
+- Noise: 0xed89...[13554]
+- Data [0]: 0x00010000
+- Data [1]: 0x03
+- Data [2]: 0xff
+- Data [3]: 0x0732...[40317]
+[2024/11/30 11:01:56.0885] [SYS] Decode ONN received data:
+- Layer: 4 (Data)
+- Send user ID: 07325582b68490506259de2d47ffaa54
+- Send user's public key: 0x30820...[550]
+- Encrypted common key: 0x85791...[512]
+- Encrypted message: 0xd65c...[39227]
+[2024/11/30 11:01:56.0886] [MSG] Get ONN data ... ONN#f063c055f4b4caf21e7bb63a95870bc1 (65536 byte / 65536 byte)
+[2024/11/30 11:01:56.0886] [MSG] Your job flag is ... DUM
+[2024/11/30 11:01:56.0893] [SYS] Create ONN send data:
+- Layer: 2 (Content)
+- Next user's common key: 0x85791...[512]
+- Next user's message: 0xd65c...[39227]
+- Noise: 0x8a89...[25249]
+[2024/11/30 11:01:56.0907] [SYS] Create ONN send data:
+- Layer: 1 (Root)
+- Next user's public key: 0x30820...[550]
+- New common key: 0xd81ba5e...[32]
+- Encrypted common key: 0x0a299...[512]
+- Target content: 0x000...[65000]
+- Encrypted content: 0xd03...[65016]
+[2024/11/30 11:01:56.0908] [MSG] Send ONN data to ... User C (@07325582b68490506259de2d47ffaa54)
+[2024/11/30 11:01:56.0978] [SYS] Send message: "/rec-on #b16d28f275771a15999b405637aeb8a4" to 127.0.1.1:20000
+[2024/11/30 11:01:56.0983] [SYS] Send message: "/pst-on #ceabaf3ac6d840559471ef617c643c3e 0x000...[66092]" to 127.0.1.1:20000
+[2024/11/30 11:01:56.0993] [SYS] Close the task (#b16d28f275771a15999b405637aeb8a4).
+[2024/11/30 11:01:56.2115] [SYS] Receive replied task (#ceabaf3ac6d840559471ef617c643c3e): "rec-on" from 127.0.1.1:20000
+[2024/11/30 11:01:56.2121] [SYS] Close the task (#ceabaf3ac6d840559471ef617c643c3e).
+[2024/11/30 11:01:56.4618] [SYS] Receive new task (#1d4738b27a3865f23396af2820915378): "pst-on" from 127.0.1.1:20000
+[2024/11/30 11:01:56.4693] [SYS] Decode ONN received data:
+- Layer: 1 (Receive)
+- Encrypted common key: 0x71f2b...[512]
+- Encrypted content: 0x569...[65016]
+- Decrypted common key: 0x3772862...[32]
+- Decrypted content: 0x000...[65000]
+[2024/11/30 11:01:56.4772] [SYS] Decode ONN received data:
+- Layer: 2 (Content)
+- Encrypted common key: 0x6ce29...[512]
+- Encrypted message: 0xfc7f...[47866]
+- Decrypted common key: 0xe990e6e...[32]
+- Decrypted message: 0xf063...[47850]
+- Noise: 0x3aed...[16610]
+[2024/11/30 11:01:56.4774] [SYS] Decode ONN received data:
+- Layer: 3 (Message)
+- Message ID: f063c055f4b4caf21e7bb63a95870bc1
+- Message size: 65536
+- Flag: DUM
+- Type: ff
+- Noise: 0xf831...[16154]
+- Data [0]: 0x00010000
+- Data [1]: 0x03
+- Data [2]: 0xff
+- Data [3]: 0x0732...[31666]
+[2024/11/30 11:01:56.4775] [SYS] Decode ONN received data:
+- Layer: 4 (Data)
+- Send user ID: 07325582b68490506259de2d47ffaa54
+- Send user's public key: 0x30820...[550]
+- Encrypted common key: 0x74316...[512]
+- Encrypted message: 0x8170...[30576]
+[2024/11/30 11:01:56.4775] [MSG] Get ONN data ... ONN#f063c055f4b4caf21e7bb63a95870bc1 (65536 byte / 65536 byte)
+[2024/11/30 11:01:56.4776] [MSG] Your job flag is ... DUM
+[2024/11/30 11:01:56.4787] [SYS] Create ONN send data:
+- Layer: 2 (Content)
+- Next user's common key: 0x74316...[512]
+- Next user's message: 0x8170...[30576]
+- Noise: 0x2806...[33900]
+[2024/11/30 11:01:56.4813] [SYS] Create ONN send data:
+- Layer: 1 (Root)
+- Next user's public key: 0x30820...[550]
+- New common key: 0xf239836...[32]
+- Encrypted common key: 0x3b49c...[512]
+- Target content: 0x000...[65000]
+- Encrypted content: 0xc8f...[65016]
+[2024/11/30 11:01:56.4815] [MSG] Send ONN data to ... User C (@07325582b68490506259de2d47ffaa54)
+[2024/11/30 11:01:56.4893] [SYS] Send message: "/rec-on #1d4738b27a3865f23396af2820915378" to 127.0.1.1:20000
+[2024/11/30 11:01:56.4895] [SYS] Send message: "/pst-on #6679fc3af4a74caea69a4f74a2cada33 0x000...[66092]" to 127.0.1.1:20000
+[2024/11/30 11:01:56.4900] [SYS] Close the task (#1d4738b27a3865f23396af2820915378).
+[2024/11/30 11:01:56.6052] [SYS] Receive replied task (#6679fc3af4a74caea69a4f74a2cada33): "rec-on" from 127.0.1.1:20000
+[2024/11/30 11:01:56.6054] [SYS] Close the task (#6679fc3af4a74caea69a4f74a2cada33).
+[2024/11/30 11:01:56.8178] [SYS] Receive new task (#6fde89c385289618cd1db8c709bcca3f): "pst-on" from 127.0.1.1:20000
+[2024/11/30 11:01:56.8260] [SYS] Decode ONN received data:
+- Layer: 1 (Receive)
+- Encrypted common key: 0x63af5...[512]
+- Encrypted content: 0x0da...[65016]
+- Decrypted common key: 0xdfe1735...[32]
+- Decrypted content: 0x000...[65000]
+[2024/11/30 11:01:56.8326] [SYS] Decode ONN received data:
+- Layer: 2 (Content)
+- Encrypted common key: 0x936ec...[512]
+- Encrypted message: 0xf34...[54192]
+- Decrypted common key: 0xfd5591e...[32]
+- Decrypted message: 0xf06...[54176]
+- Noise: 0x9b3b...[10284]
+[2024/11/30 11:01:56.8334] [SYS] Decode ONN received data:
+- Layer: 3 (Message)
+- Message ID: f063c055f4b4caf21e7bb63a95870bc1
+- Message size: 65536
+- Flag: DUM
+- Type: ff
+- Noise: 0x7e46...[13008]
+- Data [0]: 0x00010000
+- Data [1]: 0x03
+- Data [2]: 0xff
+- Data [3]: 0x0732...[41138]
+[2024/11/30 11:01:56.8335] [SYS] Decode ONN received data:
+- Layer: 4 (Data)
+- Send user ID: 07325582b68490506259de2d47ffaa54
+- Send user's public key: 0x30820...[550]
+- Encrypted common key: 0x21bf9...[512]
+- Encrypted message: 0x1ce5...[40048]
+[2024/11/30 11:01:56.8336] [MSG] Get ONN data ... ONN#f063c055f4b4caf21e7bb63a95870bc1 (65536 byte / 65536 byte)
+[2024/11/30 11:01:56.8337] [MSG] Your job flag is ... DUM
+[2024/11/30 11:01:56.8347] [SYS] Create ONN send data:
+- Layer: 2 (Content)
+- Next user's common key: 0x21bf9...[512]
+- Next user's message: 0x1ce5...[40048]
+- Noise: 0x68ee...[24428]
+[2024/11/30 11:01:56.8362] [SYS] Create ONN send data:
+- Layer: 1 (Root)
+- Next user's public key: 0x30820...[550]
+- New common key: 0xb39be8d...[32]
+- Encrypted common key: 0x09dbd...[512]
+- Target content: 0x000...[65000]
+- Encrypted content: 0x87a...[65016]
+[2024/11/30 11:01:56.8363] [MSG] Send ONN data to ... User C (@07325582b68490506259de2d47ffaa54)
+[2024/11/30 11:01:56.8464] [SYS] Send message: "/rec-on #6fde89c385289618cd1db8c709bcca3f" to 127.0.1.1:20000
+[2024/11/30 11:01:56.8466] [SYS] Send message: "/pst-on #3bd41f5b894e315b1285be798da3e981 0x000...[66092]" to 127.0.1.1:20000
+[2024/11/30 11:01:56.8475] [SYS] Close the task (#6fde89c385289618cd1db8c709bcca3f).
+[2024/11/30 11:01:56.9997] [SYS] Receive replied task (#3bd41f5b894e315b1285be798da3e981): "rec-on" from 127.0.1.1:20000
+[2024/11/30 11:01:57.0003] [SYS] Close the task (#3bd41f5b894e315b1285be798da3e981).
+[2024/11/30 11:01:57.1722] [SYS] Receive new task (#87bddf716c7af9f01b98e656d12fc565): "pst-on" from 127.0.1.1:20000
+[2024/11/30 11:01:57.1798] [SYS] Decode ONN received data:
+- Layer: 1 (Receive)
+- Encrypted common key: 0x15b38...[512]
+- Encrypted content: 0x305...[65016]
+- Decrypted common key: 0x28ac4ad...[32]
+- Decrypted content: 0x000...[65000]
+[2024/11/30 11:01:57.1865] [SYS] Decode ONN received data:
+- Layer: 2 (Content)
+- Encrypted common key: 0x605e8...[512]
+- Encrypted message: 0x5f0...[56265]
+- Decrypted common key: 0x78d1c6f...[32]
+- Decrypted message: 0xf06...[56249]
+- Noise: 0x9fa5...[8211]
+[2024/11/30 11:01:57.1868] [SYS] Decode ONN received data:
+- Layer: 3 (Message)
+- Message ID: f063c055f4b4caf21e7bb63a95870bc1
+- Message size: 65536
+- Flag: DUM
+- Type: ff
+- Noise: 0x5e47...[9498]
+- Data [0]: 0x00010000
+- Data [1]: 0x03
+- Data [2]: 0xff
+- Data [3]: 0x0732...[46721]
+[2024/11/30 11:01:57.1886] [SYS] Decode ONN received data:
+- Layer: 4 (Data)
+- Send user ID: 07325582b68490506259de2d47ffaa54
+- Send user's public key: 0x30820...[550]
+- Encrypted common key: 0x3e108...[512]
+- Encrypted message: 0x942f...[45631]
+[2024/11/30 11:01:57.1888] [MSG] Get ONN data ... ONN#f063c055f4b4caf21e7bb63a95870bc1 (65536 byte / 65536 byte)
+[2024/11/30 11:01:57.1888] [MSG] Your job flag is ... DUM
+[2024/11/30 11:01:57.1893] [SYS] Create ONN send data:
+- Layer: 2 (Content)
+- Next user's common key: 0x3e108...[512]
+- Next user's message: 0x942f...[45631]
+- Noise: 0xe35f...[18845]
+[2024/11/30 11:01:57.1909] [SYS] Create ONN send data:
+- Layer: 1 (Root)
+- Next user's public key: 0x30820...[550]
+- New common key: 0x7792c6d...[32]
+- Encrypted common key: 0xa74c6...[512]
+- Target content: 0x000...[65000]
+- Encrypted content: 0x5d6...[65016]
+[2024/11/30 11:01:57.1910] [MSG] Send ONN data to ... User C (@07325582b68490506259de2d47ffaa54)
+[2024/11/30 11:01:57.1981] [SYS] Send message: "/pst-on #712477852c250d60b91e54209335b83e 0x000...[66092]" to 127.0.1.1:20000
+[2024/11/30 11:01:57.1983] [SYS] Send message: "/rec-on #87bddf716c7af9f01b98e656d12fc565" to 127.0.1.1:20000
+[2024/11/30 11:01:57.1990] [SYS] Close the task (#87bddf716c7af9f01b98e656d12fc565).
+[2024/11/30 11:01:57.2710] [SYS] Receive replied task (#712477852c250d60b91e54209335b83e): "rec-on" from 127.0.1.1:20000
+[2024/11/30 11:01:57.2712] [SYS] Close the task (#712477852c250d60b91e54209335b83e).
+[2024/11/30 11:01:57.4855] [SYS] Receive new task (#3b23f5de5e60072be0eaf6ff3e787787): "pst-on" from 127.0.1.1:20000
+[2024/11/30 11:01:57.4969] [SYS] Decode ONN received data:
+- Layer: 1 (Receive)
+- Encrypted common key: 0x2ade6...[512]
+- Encrypted content: 0x971...[65016]
+- Decrypted common key: 0xd13578d...[32]
+- Decrypted content: 0x000...[65000]
+[2024/11/30 11:01:57.5061] [SYS] Decode ONN received data:
+- Layer: 2 (Content)
+- Encrypted common key: 0xb2a9c...[512]
+- Encrypted message: 0xe23...[55367]
+- Decrypted common key: 0x94902bf...[32]
+- Decrypted message: 0xf06...[55351]
+- Noise: 0x7b11...[9109]
+[2024/11/30 11:01:57.5069] [SYS] Decode ONN received data:
+- Layer: 3 (Message)
+- Message ID: f063c055f4b4caf21e7bb63a95870bc1
+- Message size: 65536
+- Flag: DUM
+- Type: ff
+- Noise: 0x00ca...[14487]
+- Data [0]: 0x00010000
+- Data [1]: 0x03
+- Data [2]: 0xff
+- Data [3]: 0x0732...[40834]
+[2024/11/30 11:01:57.5072] [SYS] Decode ONN received data:
+- Layer: 4 (Data)
+- Send user ID: 07325582b68490506259de2d47ffaa54
+- Send user's public key: 0x30820...[550]
+- Encrypted common key: 0x7965d...[512]
+- Encrypted message: 0x60a5...[39744]
+[2024/11/30 11:01:57.5073] [MSG] Get ONN data ... ONN#f063c055f4b4caf21e7bb63a95870bc1 (65536 byte / 65536 byte)
+[2024/11/30 11:01:57.5073] [MSG] Your job flag is ... DUM
+[2024/11/30 11:01:57.5082] [SYS] Create ONN send data:
+- Layer: 2 (Content)
+- Next user's common key: 0x7965d...[512]
+- Next user's message: 0x60a5...[39744]
+- Noise: 0x7456...[24732]
+[2024/11/30 11:01:57.5104] [SYS] Create ONN send data:
+- Layer: 1 (Root)
+- Next user's public key: 0x30820...[550]
+- New common key: 0xbedf219...[32]
+- Encrypted common key: 0x23ad7...[512]
+- Target content: 0x000...[65000]
+- Encrypted content: 0xf8e...[65016]
+[2024/11/30 11:01:57.5106] [MSG] Send ONN data to ... User C (@07325582b68490506259de2d47ffaa54)
+[2024/11/30 11:01:57.5219] [SYS] Send message: "/rec-on #3b23f5de5e60072be0eaf6ff3e787787" to 127.0.1.1:20000
+[2024/11/30 11:01:57.5221] [SYS] Send message: "/pst-on #2ea84a2cd221407beacfd435f868ea54 0x000...[66092]" to 127.0.1.1:20000
+[2024/11/30 11:01:57.5231] [SYS] Close the task (#3b23f5de5e60072be0eaf6ff3e787787).
+[2024/11/30 11:01:57.6384] [SYS] Receive replied task (#2ea84a2cd221407beacfd435f868ea54): "rec-on" from 127.0.1.1:20000
+[2024/11/30 11:01:57.6388] [SYS] Close the task (#2ea84a2cd221407beacfd435f868ea54).
+[2024/11/30 11:01:57.8419] [SYS] Receive new task (#0874322af15fc8a746b1a20f5615abbd): "pst-on" from 127.0.1.1:20000
+[2024/11/30 11:01:57.8512] [SYS] Decode ONN received data:
+- Layer: 1 (Receive)
+- Encrypted common key: 0x09c10...[512]
+- Encrypted content: 0x869...[65016]
+- Decrypted common key: 0x898b4c0...[32]
+- Decrypted content: 0x000...[65000]
+[2024/11/30 11:01:57.8587] [SYS] Decode ONN received data:
+- Layer: 2 (Content)
+- Encrypted common key: 0x65de6...[512]
+- Encrypted message: 0x9d3...[55311]
+- Decrypted common key: 0xff52dba...[32]
+- Decrypted message: 0xf06...[55295]
+- Noise: 0xe80f...[9165]
+[2024/11/30 11:01:57.8589] [SYS] Decode ONN received data:
+- Layer: 3 (Message)
+- Message ID: f063c055f4b4caf21e7bb63a95870bc1
+- Message size: 65536
+- Flag: DUM
+- Type: ff
+- Noise: 0xf128...[10067]
+- Data [0]: 0x00010000
+- Data [1]: 0x03
+- Data [2]: 0xff
+- Data [3]: 0x0732...[45198]
+[2024/11/30 11:01:57.8590] [SYS] Decode ONN received data:
+- Layer: 4 (Data)
+- Send user ID: 07325582b68490506259de2d47ffaa54
+- Send user's public key: 0x30820...[550]
+- Encrypted common key: 0xad187...[512]
+- Encrypted message: 0x70d7...[44108]
+[2024/11/30 11:01:57.8590] [MSG] Get ONN data ... ONN#f063c055f4b4caf21e7bb63a95870bc1 (65536 byte / 65536 byte)
+[2024/11/30 11:01:57.8590] [MSG] Your job flag is ... DUM
+[2024/11/30 11:01:57.8595] [SYS] Create ONN send data:
+- Layer: 2 (Content)
+- Next user's common key: 0xad187...[512]
+- Next user's message: 0x70d7...[44108]
+- Noise: 0x802c...[20368]
+[2024/11/30 11:01:57.8608] [SYS] Create ONN send data:
+- Layer: 1 (Root)
+- Next user's public key: 0x30820...[550]
+- New common key: 0x6e6f060...[32]
+- Encrypted common key: 0x68cec...[512]
+- Target content: 0x000...[65000]
+- Encrypted content: 0x90a...[65016]
+[2024/11/30 11:01:57.8609] [MSG] Send ONN data to ... User C (@07325582b68490506259de2d47ffaa54)
+[2024/11/30 11:01:57.8687] [SYS] Send message: "/rec-on #0874322af15fc8a746b1a20f5615abbd" to 127.0.1.1:20000
+[2024/11/30 11:01:57.8690] [SYS] Send message: "/pst-on #ab73c224e092d9a8b24d20de5927345a 0x000...[66092]" to 127.0.1.1:20000
+[2024/11/30 11:01:57.8697] [SYS] Close the task (#0874322af15fc8a746b1a20f5615abbd).
+[2024/11/30 11:01:58.0281] [SYS] Receive replied task (#ab73c224e092d9a8b24d20de5927345a): "rec-on" from 127.0.1.1:20000
+[2024/11/30 11:01:58.0284] [SYS] Close the task (#ab73c224e092d9a8b24d20de5927345a).
+[2024/11/30 11:01:58.2539] [SYS] Receive new task (#92b4885c5b3349920e3806ff08c7bc0b): "pst-on" from 127.0.1.1:20000
+[2024/11/30 11:01:58.2620] [SYS] Decode ONN received data:
+- Layer: 1 (Receive)
+- Encrypted common key: 0x8c9ab...[512]
+- Encrypted content: 0x72d...[65016]
+- Decrypted common key: 0x217f918...[32]
+- Decrypted content: 0x000...[65000]
+[2024/11/30 11:01:58.2693] [SYS] Decode ONN received data:
+- Layer: 2 (Content)
+- Encrypted common key: 0x9cd16...[512]
+- Encrypted message: 0x6d5...[56419]
+- Decrypted common key: 0x2dd2e4f...[32]
+- Decrypted message: 0xf06...[56403]
+- Noise: 0x0676...[8057]
+[2024/11/30 11:01:58.2696] [SYS] Decode ONN received data:
+- Layer: 3 (Message)
+- Message ID: f063c055f4b4caf21e7bb63a95870bc1
+- Message size: 65536
+- Flag: DUM
+- Type: ff
+- Noise: 0x6c27...[12384]
+- Data [0]: 0x00010000
+- Data [1]: 0x03
+- Data [2]: 0xff
+- Data [3]: 0x0732...[43989]
+[2024/11/30 11:01:58.2697] [SYS] Decode ONN received data:
+- Layer: 4 (Data)
+- Send user ID: 07325582b68490506259de2d47ffaa54
+- Send user's public key: 0x30820...[550]
+- Encrypted common key: 0x0a591...[512]
+- Encrypted message: 0x9a27...[42899]
+[2024/11/30 11:01:58.2697] [MSG] Get ONN data ... ONN#f063c055f4b4caf21e7bb63a95870bc1 (65536 byte / 65536 byte)
+[2024/11/30 11:01:58.2698] [MSG] Your job flag is ... DUM
+[2024/11/30 11:01:58.2718] [SYS] Create ONN send data:
+- Layer: 2 (Content)
+- Next user's common key: 0x0a591...[512]
+- Next user's message: 0x9a27...[42899]
+- Noise: 0x62e8...[21577]
+[2024/11/30 11:01:58.2730] [SYS] Create ONN send data:
+- Layer: 1 (Root)
+- Next user's public key: 0x30820...[550]
+- New common key: 0xed59680...[32]
+- Encrypted common key: 0x38ef5...[512]
+- Target content: 0x000...[65000]
+- Encrypted content: 0x6fd...[65016]
+[2024/11/30 11:01:58.2731] [MSG] Send ONN data to ... User C (@07325582b68490506259de2d47ffaa54)
+[2024/11/30 11:01:58.2805] [SYS] Send message: "/rec-on #92b4885c5b3349920e3806ff08c7bc0b" to 127.0.1.1:20000
+[2024/11/30 11:01:58.2807] [SYS] Send message: "/pst-on #046300333420838fbdf267a69500a270 0x000...[66092]" to 127.0.1.1:20000
+[2024/11/30 11:01:58.2812] [SYS] Close the task (#92b4885c5b3349920e3806ff08c7bc0b).
+[2024/11/30 11:01:58.4077] [SYS] Receive replied task (#046300333420838fbdf267a69500a270): "rec-on" from 127.0.1.1:20000
+[2024/11/30 11:01:58.4079] [SYS] Close the task (#046300333420838fbdf267a69500a270).
+[2024/11/30 11:01:58.5689] [SYS] Receive new task (#4d9762fded054d6869d399778e665c67): "pst-on" from 127.0.1.1:20000
+[2024/11/30 11:01:58.5771] [SYS] Decode ONN received data:
+- Layer: 1 (Receive)
+- Encrypted common key: 0xb9a34...[512]
+- Encrypted content: 0x31f...[65016]
+- Decrypted common key: 0x06f8180...[32]
+- Decrypted content: 0x000...[65000]
+[2024/11/30 11:01:58.5848] [SYS] Decode ONN received data:
+- Layer: 2 (Content)
+- Encrypted common key: 0x2868a...[512]
+- Encrypted message: 0xcb5...[53339]
+- Decrypted common key: 0x4248db2...[32]
+- Decrypted message: 0xf06...[53323]
+- Noise: 0x5c90...[11137]
+[2024/11/30 11:01:58.5851] [SYS] Decode ONN received data:
+- Layer: 3 (Message)
+- Message ID: f063c055f4b4caf21e7bb63a95870bc1
+- Message size: 65536
+- Flag: DUM
+- Type: ff
+- Noise: 0x696e...[9423]
+- Data [0]: 0x00010000
+- Data [1]: 0x03
+- Data [2]: 0xff
+- Data [3]: 0x0732...[43870]
+[2024/11/30 11:01:58.5852] [SYS] Decode ONN received data:
+- Layer: 4 (Data)
+- Send user ID: 07325582b68490506259de2d47ffaa54
+- Send user's public key: 0x30820...[550]
+- Encrypted common key: 0x5f7f5...[512]
+- Encrypted message: 0xe954...[42780]
+[2024/11/30 11:01:58.5853] [MSG] Get ONN data ... ONN#f063c055f4b4caf21e7bb63a95870bc1 (65536 byte / 65536 byte)
+[2024/11/30 11:01:58.5853] [MSG] Your job flag is ... DUM
+[2024/11/30 11:01:58.5859] [SYS] Create ONN send data:
+- Layer: 2 (Content)
+- Next user's common key: 0x5f7f5...[512]
+- Next user's message: 0xe954...[42780]
+- Noise: 0x187e...[21696]
+[2024/11/30 11:01:58.5876] [SYS] Create ONN send data:
+- Layer: 1 (Root)
+- Next user's public key: 0x30820...[550]
+- New common key: 0xd1b62bf...[32]
+- Encrypted common key: 0x0f6cf...[512]
+- Target content: 0x000...[65000]
+- Encrypted content: 0x000...[65016]
+[2024/11/30 11:01:58.5877] [MSG] Send ONN data to ... User C (@07325582b68490506259de2d47ffaa54)
+[2024/11/30 11:01:58.5956] [SYS] Send message: "/rec-on #4d9762fded054d6869d399778e665c67" to 127.0.1.1:20000
+[2024/11/30 11:01:58.5958] [SYS] Send message: "/pst-on #6960fc1b3e741545581fcb851e4f85ca 0x000...[66092]" to 127.0.1.1:20000
+[2024/11/30 11:01:58.5963] [SYS] Close the task (#4d9762fded054d6869d399778e665c67).
+[2024/11/30 11:01:58.6660] [SYS] Receive replied task (#6960fc1b3e741545581fcb851e4f85ca): "rec-on" from 127.0.1.1:20000
+[2024/11/30 11:01:58.6663] [SYS] Close the task (#6960fc1b3e741545581fcb851e4f85ca).
+[2024/11/30 11:01:58.8765] [SYS] Receive new task (#e5bd1432a5d6d6323dd2689a04d42d93): "pst-on" from 127.0.1.1:20000
+[2024/11/30 11:01:58.8856] [SYS] Decode ONN received data:
+- Layer: 1 (Receive)
+- Encrypted common key: 0xa4d33...[512]
+- Encrypted content: 0xc72...[65016]
+- Decrypted common key: 0xea89a0d...[32]
+- Decrypted content: 0x000...[65000]
+[2024/11/30 11:01:58.8928] [SYS] Decode ONN received data:
+- Layer: 2 (Content)
+- Encrypted common key: 0x843da...[512]
+- Encrypted message: 0x3817...[36648]
+- Decrypted common key: 0x8ea947a...[32]
+- Decrypted message: 0xf063...[36632]
+- Noise: 0x94bb...[27828]
+[2024/11/30 11:01:58.8931] [SYS] Decode ONN received data:
+- Layer: 3 (Message)
+- Message ID: f063c055f4b4caf21e7bb63a95870bc1
+- Message size: 65536
+- Flag: DUM
+- Type: ff
+- Noise: 0xe882...[8156]
+- Data [0]: 0x00010000
+- Data [1]: 0x03
+- Data [2]: 0xff
+- Data [3]: 0x0732...[28446]
+[2024/11/30 11:01:58.8932] [SYS] Decode ONN received data:
+- Layer: 4 (Data)
+- Send user ID: 07325582b68490506259de2d47ffaa54
+- Send user's public key: 0x30820...[550]
+- Encrypted common key: 0x3ca65...[512]
+- Encrypted message: 0x053e...[27356]
+[2024/11/30 11:01:58.8933] [MSG] Get ONN data ... ONN#f063c055f4b4caf21e7bb63a95870bc1 (65536 byte / 65536 byte)
+[2024/11/30 11:01:58.8933] [MSG] Your job flag is ... DUM
+[2024/11/30 11:01:58.8944] [SYS] Create ONN send data:
+- Layer: 2 (Content)
+- Next user's common key: 0x3ca65...[512]
+- Next user's message: 0x053e...[27356]
+- Noise: 0x602f...[37120]
+[2024/11/30 11:01:58.8965] [SYS] Create ONN send data:
+- Layer: 1 (Root)
+- Next user's public key: 0x30820...[550]
+- New common key: 0x99bd951...[32]
+- Encrypted common key: 0x3d60b...[512]
+- Target content: 0x000...[65000]
+- Encrypted content: 0x3df...[65016]
+[2024/11/30 11:01:58.8968] [MSG] Send ONN data to ... User C (@07325582b68490506259de2d47ffaa54)
+[2024/11/30 11:01:58.9087] [SYS] Send message: "/rec-on #e5bd1432a5d6d6323dd2689a04d42d93" to 127.0.1.1:20000
+[2024/11/30 11:01:58.9089] [SYS] Send message: "/pst-on #a4bcb32a7cdfd8316a04191ba860aeee 0x000...[66092]" to 127.0.1.1:20000
+[2024/11/30 11:01:58.9095] [SYS] Close the task (#e5bd1432a5d6d6323dd2689a04d42d93).
+[2024/11/30 11:01:59.0205] [SYS] Receive replied task (#a4bcb32a7cdfd8316a04191ba860aeee): "rec-on" from 127.0.1.1:20000
+[2024/11/30 11:01:59.0209] [SYS] Close the task (#a4bcb32a7cdfd8316a04191ba860aeee).

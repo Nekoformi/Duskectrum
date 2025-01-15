@@ -1,0 +1,98 @@
+/* -----------------------------------------------------------------------------
+7. Table
+----------------------------------------------------------------------------- */
+
+.document table {
+    position: relative;
+    max-width: 100%;
+    margin: var(--document_item_margin) auto;
+    border-collapse: collapse;
+    border: solid 3px var(--document_color_text);
+    color: var(--document_color_text);
+}
+.document table:first-child {
+    margin-top: 0;
+}
+.document table:last-child {
+    margin-bottom: 0;
+}
+.document table.fix {
+    table-layout: fixed;
+}
+.document table.fit {
+    width: 100%;
+}
+
+.document table > caption {
+    text-align: center;
+    font-family: inherit;
+    font-style: italic;
+    font-weight: bold;
+    font-size: inherit;
+    color: inherit;
+}
+.document table > thead {
+    border-bottom: double 3px var(--document_color_text);
+}
+.document table > tfoot {
+    border-top: double 3px var(--document_color_text);
+}
+
+.document table th,
+.document table td {
+    margin: 0;
+    padding: var(--document_table_padding);
+    text-align: left;
+    vertical-align: top;
+    word-break: break-all;
+    border: solid 1px var(--document_color_text);
+}
+.document table th {
+    font-weight: bold;
+}
+.document table td {
+    font-weight: normal;
+}
+.document table tbody th {
+    width: 0;
+    white-space: nowrap;
+}
+.document table.fix td {
+    max-width: 0;
+}
+
+.document table .nowrap {
+    white-space: nowrap;
+}
+.document table .left {
+    text-align: left;
+}
+.document table .center {
+    text-align: center;
+}
+.document table .right {
+    text-align: right;
+}
+.document table .top {
+    vertical-align: top;
+}
+.document table .middle {
+    vertical-align: middle;
+}
+.document table .bottom {
+    vertical-align: bottom;
+}
+.document table .number {
+    text-align: right;
+}
+
+.document .hugeContent table {
+    width: auto;
+    max-width: 100%;
+}
+
+@media print {
+    .document table thead {
+        display: table-header-group;
+    }
+}

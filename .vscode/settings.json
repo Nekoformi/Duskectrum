@@ -1,0 +1,28 @@
+{
+    "editor.wordWrap": "on",
+    "files.eol": "\n",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "prettier.jsxSingleQuote": true,
+    "prettier.printWidth": 160,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "workbench.startupEditor": "none",
+    "deno.enable": true,
+    "deno.lint": true,
+    "editor.defaultFormatter": "denoland.vscode-deno",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "denoland.vscode-deno"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "denoland.vscode-deno"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "denoland.vscode-deno"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "denoland.vscode-deno"
+    },
+    "css.customData": [".vscode/tailwind.json"],
+    "cSpell.words": ["Duskectrum", "Sara", "Сара", "Kotova", "Котова", "Nekoformi"]
+}
